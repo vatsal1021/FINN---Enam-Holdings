@@ -1,0 +1,592 @@
+{
+  "preview": {
+    "asof": "2026-10-30",
+    "window": "22–29 Oct 2026",
+    "retrieved": "30 Oct 2026, approximately 13:09–13:30 IST",
+    "description": "Saved experiment data. Summaries and priorities manually authored. No live feed or AI response."
+  },
+  "companies": [
+    {
+      "ticker": "INFY",
+      "name": "Infosys",
+      "sector": "IT services",
+      "quote": {
+        "close": 1146.5,
+        "previous": 1123.15,
+        "volume": 14048472,
+        "date": "2026-10-29",
+        "source": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries",
+      "sector": "Energy, retail & digital",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Banking",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "name": "Bharti Airtel",
+      "sector": "Telecom",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "LT",
+      "name": "Larsen & Toubro",
+      "sector": "Engineering & construction",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "MARUTI",
+      "name": "Maruti Suzuki",
+      "sector": "Automobiles",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "name": "Sun Pharmaceutical",
+      "sector": "Pharmaceuticals",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "name": "Hindustan Unilever",
+      "sector": "Consumer staples",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "NTPC",
+      "name": "NTPC",
+      "sector": "Power",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "TATASTEEL",
+      "name": "Tata Steel",
+      "sector": "Metals",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "quote": {
+        "close": 8200.0,
+        "previous": 8137.0,
+        "volume": 583531,
+        "date": "2026-10-29",
+        "source": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv"
+      },
+      "coverage": "partial"
+    },
+    {
+      "ticker": "KPRMILL",
+      "name": "KPR Mill",
+      "sector": "Textiles",
+      "quote": {
+        "close": 1082.7,
+        "previous": 1091.5,
+        "volume": 441531,
+        "date": "2026-10-29",
+        "source": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv"
+      },
+      "coverage": "stale"
+    },
+    {
+      "ticker": "CERA",
+      "name": "Cera Sanitaryware",
+      "sector": "Building products",
+      "quote": {
+        "close": 4439.0,
+        "previous": 4449.0,
+        "volume": 15684,
+        "date": "2026-10-29",
+        "source": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "PERSISTENT",
+      "name": "Persistent Systems",
+      "sector": "IT services",
+      "quote": null,
+      "coverage": "missing"
+    },
+    {
+      "ticker": "ELGIEQUIP",
+      "name": "Elgi Equipments",
+      "sector": "Industrial equipment",
+      "quote": null,
+      "coverage": "missing"
+    }
+  ],
+  "events": [
+    {
+      "id": "106832593",
+      "ticker": "INFY",
+      "title": "Q2 earnings call is available",
+      "priority": "attention",
+      "reason": "New management commentary on growth and the revenue mix.",
+      "summary": "Management reported Q2 constant-currency revenue growth of 1.5% YoY and AI revenue at 10.5% of total revenue, versus 8.2% last quarter.",
+      "evidence": "infy-growth",
+      "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "description": "Infosys Limited has informed the Exchange regarding 'Earnings Call Transcript'.",
+      "date": "2026-10-28",
+      "time": "28-Oct-2026 17:38:42",
+      "category": "Updates",
+      "manual": true
+    },
+    {
+      "id": "106831636",
+      "ticker": "KPRMILL",
+      "title": "Quarterly results to review",
+      "priority": "attention",
+      "reason": "A new quarterly results filing contains updated financial statements.",
+      "summary": "For the September quarter, consolidated revenue from operations was ₹1,939.74 crore and PAT was ₹345.00 crore. Figures are manually checked; no causal or investment conclusion is implied.",
+      "evidence": "kpr-consolidated",
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_28102026114824_BMOUTCOME28102026.pdf",
+      "description": "We wish to inform you that the Board of Directors of the Company at their Meeting held on 28th October, 2026 have approved the following Un-Audited Financial Results of the Company for the Quarter/Half-Year ended 30th September, 2026:1. Standalone                                       2. Consolidated In this connection, we are sending herewith the Certified True Copies of the aforesaid Results along with the Limited Review Reports issued by the Statutory Auditors of the Company.",
+      "date": "2026-10-28",
+      "time": "28-Oct-2026 11:49:27",
+      "category": "Outcome of Board Meeting",
+      "manual": true
+    },
+    {
+      "id": "106825039",
+      "ticker": "CERA",
+      "title": "Q2 & H1 call invitation",
+      "priority": "routine",
+      "reason": "Scheduling notice; no call commentary or results in this document.",
+      "summary": "A call invitation was filed. Do not treat it as a Q2 transcript.",
+      "evidence": "cera-notice",
+      "url": "https://nsearchives.nseindia.com/corporate/CERA_22102026170832_CERAQ2CALL221026s.pdf",
+      "description": "Cera Sanitaryware Limited has informed the Exchange about Q2 & H1 FY27 Earnings Conference Call",
+      "date": "2026-10-22",
+      "time": "22-Oct-2026 17:09:19",
+      "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "manual": true
+    },
+    {
+      "id": "106834249",
+      "ticker": "INFY",
+      "title": "Newspaper publication",
+      "priority": "routine",
+      "reason": "Publication copy. Content has not been reviewed for material changes.",
+      "summary": "",
+      "evidence": null,
+      "url": "https://nsearchives.nseindia.com/corporate/INFY_29102026151445_SE_intimation_Newspaper_ad_2.pdf",
+      "description": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+      "date": "2026-10-29",
+      "time": "29-Oct-2026 15:15:01",
+      "category": "Copy of Newspaper Publication",
+      "manual": false
+    },
+    {
+      "id": "106834529",
+      "ticker": "KPRMILL",
+      "title": "Newspaper publication",
+      "priority": "routine",
+      "reason": "Publication copy. Content has not been reviewed for material changes.",
+      "summary": "",
+      "evidence": null,
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_29102026163729_Newspaperpublication.pdf",
+      "description": "K.P.R. Mill Limited has informed the Exchange about Copy of Newspaper Publication",
+      "date": "2026-10-29",
+      "time": "29-Oct-2026 16:37:51",
+      "category": "Copy of Newspaper Publication",
+      "manual": false
+    },
+    {
+      "id": "106834509",
+      "ticker": "KPRMILL",
+      "title": "Investor meeting schedule",
+      "priority": "routine",
+      "reason": "Meeting schedule; no evidence of new operating information in the saved metadata.",
+      "summary": "",
+      "evidence": null,
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_29102026163219_Investormeetintimation29102026.pdf",
+      "description": "K.P.R. Mill Limited has informed the Exchange about Schedule of meet with PL Capital Group.",
+      "date": "2026-10-29",
+      "time": "29-Oct-2026 16:32:50",
+      "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "manual": false
+    },
+    {
+      "id": "106834219",
+      "ticker": "INFY",
+      "title": "Finacle awards announcement",
+      "priority": "unreviewed",
+      "reason": "Only exchange metadata is saved. Materiality is not assessed.",
+      "summary": "",
+      "evidence": null,
+      "url": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
+      "description": "Infosys Limited has informed the Exchange regarding 'Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced'.",
+      "date": "2026-10-29",
+      "time": "29-Oct-2026 15:05:32",
+      "category": "Updates",
+      "manual": false
+    },
+    {
+      "id": "106817829",
+      "ticker": "CERA",
+      "title": "Depository compliance certificate",
+      "priority": "routine",
+      "reason": "Regulatory certificate. Original content has not been reviewed.",
+      "summary": "",
+      "evidence": null,
+      "url": "https://nsearchives.nseindia.com/corporate/CERA_14102026204524_CERA745141026s.pdf",
+      "description": "Cera Sanitaryware Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+      "date": "2026-10-14",
+      "time": "14-Oct-2026 20:45:35",
+      "category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+      "manual": false
+    }
+  ],
+  "documents": {
+    "infy-call": {
+      "id": "infy-call",
+      "title": "Infosys · Q2 FY27 earnings call",
+      "kind": "Earnings-call transcript",
+      "period": "Q2 FY27",
+      "date": "2026-10-23",
+      "status": "saved",
+      "note": "Exchange bundle filed 28 Oct 2026. Actual earnings call starts at PDF page 24; this passage is page 25, printed page 2. The bundle also contains a separate press conference.",
+      "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "retrieved": "2026-10-30T07:45:19.769158+00:00",
+      "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+      "pdf": "/documents/infy-call.pdf",
+      "pages": [
+        {
+          "number": 25,
+          "text": "External Document © 2026 Infosys Limited 2   \nModerator \nLadies and gentlemen, greetings, and welcome to Infosys Limited Q2 FY27 Earnings Conference \nCall. As a reminder, all participant lines will be in the listen-only mode and there will be an opportunity \nfor you to ask questions after the presentation concludes. Should you need assistance during this \nconference call, please signal an operator by pressing star then zero on your touch-tone phone. \nPlease note that this conference is being recorded. \nI now hand the conference over to Mr. Sandeep Mahindroo. Thank you, and over to Mr. Mahindroo. \nSandeep Mahindroo \nHello, everyone, and welcome to this earnings call to discuss Infosys Q2 FY27 results. Joining us on \nthis call is CEO and MD, Mr. Salil Parekh; CFO Mr. Jayesh Sanghrajka, along with other members \nof the leadership team. We will start the call with some remarks by Salil and Jayesh on the \nperformance of the company, subsequent to which we will open up the call for questions. \nPlease note that anything we say that refers to our future outlook is a forward-looking statement that \nmust be read in conjunction with the risk that the company faces. A complete statement and \nexplanation of these risks is available in our filings with the SEC, which can be found on \nwww.sec.gov. \nI would now like to pass on the call to Salil. \nSalil Parekh \nThanks, Sandeep. Good evening and good morning to everyone on the call. Thank you for joining \nus.  \nOur revenue growth for Q2 was at 1.5% YoY and 1.2% sequentially in constant currency terms. Our \nAI revenue was standout at 10.5% of our total revenue, growing 29% sequentially. Last quarter, it \nwas at 8.2%. \nOur large deals were another standout at $5.2 bn for the quarter. This includes two mega deals. One \nof these mega deals was for over $2 bn with a large international company for a period of seven \nyears and it is net new. This deal is expected to contribute over 1% of revenue growth in the coming \nfinancial year. The second mega deal was for $1 bn for a renewal. The large deal pipeline is healthy \nand includes some other mega deals. \nOperating margin was stable at 21%. Free cash flow was strong at $928 mn for the quarter."
+        }
+      ],
+      "pageCount": 48
+    },
+    "infy-annual": {
+      "id": "infy-annual",
+      "title": "Infosys · Annual report 2025–26",
+      "kind": "Annual report",
+      "period": "FY2025–26",
+      "date": "2026",
+      "status": "saved",
+      "note": "",
+      "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+      "retrieved": "2026-10-30T07:46:04.673395+00:00",
+      "sha256": "602f04ec2abfacbf28ca8ff6e592db51942c620af4c12287d3a717edb6cd078f",
+      "pdf": "/documents/infy-annual.pdf",
+      "pages": [
+        {
+          "number": 10,
+          "text": "About Infosys\nCorporate overview\n3,28,594\nEmployees\n1,965\nActive clients \n`1,78,650 cr \nTotal revenues in fiscal 2026\nSince we refreshed our ESG Vision \n2030 in 2025, we have translated \nambition into action: we have \nadvanced our Climate Positive goals, \nscaled our skilling and community \ninitiatives, and strengthened our \ninclusive workforce. Our governance \nand ethics earn global recognition, \nwith accountability that extends \nacross our value chain. What began \nas a renewed commitment has \nbecome demonstrable progress \ntoward a sustainable future for all.\nOur Purpose \nTo amplify human potential and \ncreate the next opportunity for \npeople, businesses and communities\nInfosys is a global leader in AI-first \nbusiness consulting and technology \nservices. Over 3,25,000 of our \npeople work to amplify human \npotential and create the next \nopportunity for people, businesses, \nand communities. As navigators of \nenterprise transformation, we enable \nbusinesses in 59 countries to unlock \nAI value at scale.\nWith over four decades of experience \nin managing the systems and \nworkings of global enterprises, we \naccelerate business transformation \nthrough our AI-first value framework, \ndeep domain expertise, and our \nunique ability to orchestrate \ninnovations from our AI-native \npartner ecosystem. Infosys is counted \namong the world’s Top 100 brands \ncommitted to being a well-governed, \nenvironmentally sustainable partner \nfor our clients where deep talent \nexpertise, in an inclusive workplace, \nhelp them navigate their next.\nEstablished in 1981, from a capital of \nUS$250, we have grown to become a \ncompany with a market capitalization \nof approximately US$54.8 billion. In \nour journey of over 40 years, we have \ncatalysed India’s transformation into \nthe global destination for software \nservices talent. We pioneered the \nGlobal Delivery Model and became \nthe first IT company from India to be \nlisted on NASDAQ.\nOur Values \nOur Company’s Code of Conduct stands \non the strong foundation set by our \nvalues, encapsulated in the acronym \nC-LIFE. \nClient value\nTo surpass client expectations \nconsistently\nLeadership by example\nTo set standards in our business and \ntransactions and be an exemplar for the \nindustry and ourselves\nIntegrity and transparency \nTo be ethical, sincere and open in all our \ntransactions \nFairness\nTo be objective and transaction-oriented, \nand thereby earn trust and respect\nExcellence\nTo strive relentlessly, constantly improve \nourselves, our teams, our services and \nproducts to become the best\nInfosys Integrated Annual Report 2025-26\n18\n290\nNo. of offices\n59\nNo. of countries\nCountries where we operate\nFor details of our global locations, visit   \nhttps://www.infosys.com/investors/reports-filings/documents/global-presence2026.pdf\nInfosys began its operations in a small apartment office in Pune, India, in \n1981. Today, we have offices across six continents.\nArgentina \nBrazil\nUSA\nCosta Rica\nCanada\nChile\nPeru\nMexico \nPuerto Rico\nAustralia \nNew Zealand\nChina\nSaudi Arabia\nUAE\nOman\nQatar\nTurkey\nIsrael\nIndia\nSouth Africa\nMauritius \nArmenia\nBulgaria\nBelgium\nLuxembourg\nIreland\nUK\nGuernsey\nNetherlands\nGermany\nFrance\nSpain\nPortugal \nLiechtenstein\nHungary\nSlovakia\nSwitzerland\nSerbia\nItaly\nMalta\nDenmark\nFinland\nSweden\nHong Kong \nThailand\nTaiwan \nPhilippines\nMalaysia\nSingapore \nJapan\nSouth Korea \nAustria\nCzech Republic\nPoland \nLithuania\nLatvia\nCroatia\nRomania\nNorway\nGlobal presence\nCorporate overview\nInfosys Integrated Annual Report 2025-26\n19\nRevenue by geography\nRegions\n2025-26\nNorth America\n56.1%\nEurope\n32.1%\nRest of the World\n8.9%\nIndia\n2.9%"
+        }
+      ],
+      "pageCount": 383
+    },
+    "kpr-results": {
+      "id": "kpr-results",
+      "title": "KPR Mill · September 2026 results",
+      "kind": "Exchange results filing",
+      "period": "Q2 FY27 · quarter ended 30 Sep 2026",
+      "date": "2026-10-28",
+      "status": "saved",
+      "note": "PDF page 3 is standalone; page 9 is consolidated. Tables are in INR lakh. Values in the preview were manually checked against the rendered table, not extracted by an automated financial parser.",
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_28102026114824_BMOUTCOME28102026.pdf",
+      "retrieved": "2026-10-30T07:45:22.669157+00:00",
+      "sha256": "41bc381f52d68f48aef75744d9fc45ec4fe47ddcc1f8a3ef64609c7aa78e7d73",
+      "pdf": "/documents/kpr-results.pdf",
+      "pages": [
+        {
+          "number": 3,
+          "text": "i\nv\nK.P.R. MILL LIMITED\n. ,¢\n._\nCIN : L17111TZ2003PLC010518\nRegistered Office : No.9 Gokul Building, I Floor, A.K.S.nagar, Thadagam Road, Coimbatore . 641 001.\nEmail : corporate@kprmill.com Web : www.kprmilIlimited.com\nPhone : 0422-2207777\nSTATEMENT OF UNAUDITED FINANCIAL RESULTS (STANDALONE) FOR THE QUARTER / HALF YEAR ENDED 30TH SEPTEMBER 2026\nif in Lakhs)\nSl.no\nParticulars\nQuarter Ended\nHalf Year Ended\nYear Ended\n30.09.2026\n30.06.2026\n30.09.2025\n30.09.2026\n30.09.2025\n31.03.2026\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Audited)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nIncome\n(a) Revenue from operations\n(i) Sale of products and services\n(ii) Other operating revenue\n(b) Other income\nTotal income\nExpenses\n(a) Cost of materials consumed\n(b) Purchase of stock-in-trade\n(c) Changes in inventories of finished goods, stock-in-trade\nand work-in-progress\n(d) Employee benefits expense\n(e) Finance costs\n(f) Depreciation and amortisation expenses\n(g) Other expenses\nTotal expenses\nProfit before exceptional items and tax (1-2)\nExceptional Items\nProfit before tax (3+4)\nTax expenses\na) Current tax\nb) Deferred tax\nTotal Tax\nProfit for the period (5-6)\nOther comprehensive income\nA (i) Items that will not be reclassified to profit or loss\n(ii) Income tax relating to items that will not be\nreclassified to profit or loss\nB (i) Items that will be reclassified to profit or loss\n(ii) Income tax relating to items that will be\nreclassified to profit or loss\nTotal comprehensive income for the period (7+8)\nPaid-up equity share capital (Face value of ? l each)\nTotal Reserves i.e. Other equity\nBasic and Diluted Earnings per share (in T) (Not annualised\nfor quarters)\n1,19,512\n4,144\n13,022\n1,15,953\n4,886\n3,368\n95,450\n3,259\n2,714\n2,35,465\n9,030\n16,390\n2,01,381\n7,698\n8,749\n4,15,209\n15,428\n19,779\n1,36,678\n1,24,207\n1,01,423\n2,60,885\n2,17,828\n4,50,416\n66,606\n(3,436)\n16,163\n751\n2,523\n10,357\n65,623\n369\n15,455\n889\n2,626\n12,548\n63,530\n(7,471)\n14,778\n822\n2,376\n9,747\n1,32,229\n(3,067)\n31,618\n1,640\n5,149\n22,905\n1,29,665\n(5,665)\n29,179\n1,602\n4,730\n19,883\n2,49,820\n6,400\n58,566\n3,376\n9,611\n44,357\n92,964\n97,510\n83,782\n1,90,474\n1,79,394\n3,72,130\n43,714\n43,714\n10,054\n235\n26,697\n26,697\n5,983\n93\n17,641\n17,641\n4,146\n256\n70,411\n70,411\n16,037\n328\n38,434\n38,434\n8,866\n148\n78,286\n78,286\n17,277\n407\n10,289\n6,076\n4,402\n16,365\n9,014\n17,684\n33,425\n33,425\n3,418\n9.78\n20,621\n20,621\n3,418\n6.03\n13,239\n13,239\n3,418\n3.87\n54,046\n54,046\n3,418\n15.81\n29,420\n29,420\n3,418\n8.61\n60,602\n60,602\n17.73\n3,418\n4,25,715"
+        },
+        {
+          "number": 9,
+          "text": "K.P.R. MILL LIMITED\naN : L17111IIZ2003PLC010518\nRegistered Office : No.9 Goku! Building, I Floor, A.K.S.nagar, Thadagam Road, Coimbatore - 641 001.\nEmail : corporate@kprmiII.com Web : www.kprmilllimited.com\nPhone : 0422-2207777\nSI.No\nParticulars\nQuarter Ended\nHalf Year Ended\nYear Ended\n30.09.2026\n30.06.2026\n30.09.2025\n30.09.2026\n30.09.2025\n31.03.2026\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Audited)\nl\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\nIncome\n(a) Revenue from operations\n(i) Sale of products and services\n(ii) Other operating revenue\n(b) Other income\nTotal income\nExpenses\n(a) Cost of materials consumed\n(b) Purchase of stock-in-trade\n(c) Changes in inventories of finished goods,\nstock-in-trade and work-in-progress\n(d) Employee benefits expense\n(e) Finance costs\n(f) Depreciation and amortisation expenses\n(g) Other expenses\nTotal expenses\nProfit before exceptional items and tax (1-2)\nExceptional items\nProfit before tax (3+4)\nTax expenses\na) Current tax\nb) Deferred tax\nTotal Tax\nProfit for the period (5-6)\nShare of Profit/ (Loss) of Associates\nMinority Interest\nNet Profit after taxes, Minority interest\nand share of profit of associates (7+8+9)\nOther comprehensive income\nA (i) Items that will not be reclassified to profit\nor loss\n(ii) Income tax relating to items that will not\nbe reclassified to profit or loss\nB (i) Items that will be reclassified to profit or\nloss\n(ii) Income tax relating to items that will\nbe\nreclassified to profit or loss\nTotal comprehensive income for the period\n(10+11)\nPaid-up equity share capital (Face value of ? 1\neach)\noral Reserves i.e. Other equity\nBasic and Diluted Earnings per share (in ?\n(Not annualised for quarters)\n1,87,117\n6,857\n4,913\n1,85,429\n8,123\n3,474\n1,56,886\n6,317\n2,393\n3,72,546\n14,980\n8,387\n3,25,526\n14,304\n5,991\n6,37,764\n27,273\n13,392\n1,98,887\n1,97,026\n1,65,596\n3,95,913\n3,45,821\n6,78,429\n79,033\n1,326\n27,415\n21,533\n1,177\n5,565\n14,899\n76,932\n1,474\n36,382\n24,372\n1,453\n5,649\n16,908\n77,186\n1,611\n19,871\n19,626\n1,224\n5,382\n13,486\n1,55,965\n2,800\n63,797\n45,905\n2,630\n11,214\n31,807\n1,62,097\n2,971\n46,755\n38,484\n2,614\n10,705\n27,075\n4,10,134\n4,959\n(11,098)\n78,304\n5,160\n21,560\n56,010\n1,50,948\n1,63,170\n1,38,386\n3,14,118\n2,90,701\n5,65,029\n47,939\n47,939\n12,845\n594\n33,856\n33,856\n7,559\n443\n27,210\n27,210\n5,882\n(475)\n81,795\n81,795\n20,404\n1,037\n55,120\n55,120\n12,576\n(529)\n1,13,400\n1,13,400\n25,115\n1,635\n13,439\n8,002\n5,407\n21,441\n12,047\n26,750\n34,500\n34,500\n34,500\n3,418\n10.09\n25,854\n25,854\n25,854\n3,418\n7.56\n21,803\n21,803\n21,803\n3,418\n6.38\n60,354\n60,354\n60,354\n3,418\n17.66\n43,073\n43,073\n43,073\n3,418\n12.60\n86,650\n86,650\n86,650\n3,418\n5,66,342\n25.35\nSTATEMENT OF UNAUDITED FINANCIAL RESULTS (CONSOLIDATED) FOR THE QUARTER / HALF YEAR ENDED 30TH SEPTEMBER 2026\nR in Lakhs`\nQ-L 5\n`\n>»"
+        }
+      ],
+      "pageCount": 12,
+      "pageImage": "/evidence/kpr-results-page-9.png"
+    },
+    "cera-call": {
+      "id": "cera-call",
+      "title": "Cera · Q1 FY27 earnings call",
+      "kind": "Earnings-call transcript",
+      "period": "Q1 FY27",
+      "date": "2026-08-08",
+      "status": "saved",
+      "note": "PDF page 4 is printed page 3. This is an August call, not a Q2 FY27 transcript. A comparative-year inconsistency elsewhere on this page is preserved in the full page text, not silently repaired.",
+      "url": "https://www.cera-india.com/sites/default/files/2026-08/Q1%20FY%202026-27%20Earnings%20Call%20Transcript.pdf",
+      "retrieved": "2026-10-30T07:46:12.930858+00:00",
+      "sha256": "24f52a8bf6b7fa0764c9c1e352dfb80fc90c1082907b3344de5af7a745fcb528",
+      "pdf": "/documents/cera-call.pdf",
+      "pages": [
+        {
+          "number": 4,
+          "text": "Transcript of CERA Sanitaryware Ltd. Q1 FY27 Earnings Call        \n    Page 3 of 14 \n \n \nefficient supply chain, Cera has been better placed to manage many disruptions \nacross the landscape while continuing to service its customers seamlessly.  \nFor the last few weeks and months, we have progressively reduced our dependence \non the Morbi cluster by internalizing several key SKUs. This has further strengthened our \nability to ensure consistent product availability and cater to consumer demand \neffectively. These industry developments have also created opportunities for us to \nstrengthen customer relationships and expand our presence across markets. \nOur ability to ensure consistent product availability and reliable execution has \nenabled us to respond effectively to challenging market conditions. And we remain \nfocused on capitalizing on these opportunities while maintaining a disciplined \napproach to growth.  \nBuilding on the launch of our new brand campaign, we are entering into the next \nphase of our brand-building journey. During FY27, we plan to invest approximately INR \n85 crore towards brand-building and marketing initiatives. These initiatives will span \ntelevision, digital, social media and on-ground activations to further strengthen \nconsumer engagement and enhance brand visibility. Our focus will remain on \ndeepening consumer connect and reinforcing Cera's position across key markets.  \nOverall, we have made a strong start to FY27 and believe that the Company is well-\npositioned to build on this momentum. Supported by improving demand conditions, \na strong balance sheet, continued investments in strengthening digital and channel \ncapabilities, we remain confident of sustaining our growth momentum and \nmaintaining our FY27 revenue growth guidance of 18% to 20%. Our focus will continue \nto remain on disciplined execution, strengthening our market leadership, and \ncreating sustainable long-term value for all our stakeholders. \nWith this, I would now like to hand over the call to Mr. Vikas Kothari to take you through \nthe financial performance of the quarter. \nVikas Kothari: \nThank you, Deepak, and a very good morning to everyone. I will now take you through \na brief overview of the Company's financial performance for the quarter ending June \n30, 2026.  \nRevenue from operations for the quarter stood at INR 486 crore as compared to INR \n407 crore in Q1 FY25. \nBefore I proceed further, I would like to highlight a change in the presentation of our \nfinancial statements. Turnover discounts, which were earlier reported as an expense, \nare now presented as a deduction from revenue from operations. Accordingly, the \nreported revenue for the current quarter has been reduced by 2.5%, and the revenue \nfor the corresponding quarter of the previous year has been reduced by 3%. The \nprevious quarter's revenues have been restated to be comparable in line with the \ncurrent quarter's disclosure. It is important to note that this change has been driven by \nthe evolution of certain dealer incentive schemes. For the current scheme structure, \npresenting the eligible incentives as a reduction from revenue better reflects the \nsubstance of these arrangements. Accordingly, as per the requirements of Ind AS, we \nhave realigned the presentation. This reduces the turnover but does not have any \nimpact on absolute profitability or cash flows of the Company.  \nEBITDA excluding other income for the quarter stood at INR 49.2 crore as compared \nto INR 53.1 crore in the corresponding quarter of the previous year. EBITDA margins \nstood at 10.1% in Q1 FY27 as compared to 13.1 in Q1 FY26. The moderation in EBITDA"
+        }
+      ],
+      "pageCount": 15
+    },
+    "cera-annual": {
+      "id": "cera-annual",
+      "title": "Cera · Annual report 2025–26",
+      "kind": "Annual report",
+      "period": "FY2025–26",
+      "date": "2026",
+      "status": "saved",
+      "note": "",
+      "url": "https://www.cera-india.com/sites/default/files/2026-06/CERA%20Annual%20Report%202025-26.pdf",
+      "retrieved": "2026-10-30T07:48:34.283812+00:00",
+      "sha256": "9f0dd04480d474cd590a137583ac0b7d507b5fca5f33e63e8fdc3adbe499dd25",
+      "pdf": "/documents/cera-annual.pdf",
+      "pages": [
+        {
+          "number": 3,
+          "text": "CHAIRMAN AND MANAGING DIRECTOR'S OVERVIEW \nCERA is responding to evolving \ncustomer priorities while preparing \nfor the next phase of growth\nT\nhe growth Indian sanitaryware and faucetware sector \nmoderated in the last two financial years as Indian \nhouseholds staggered their spending in response to \nevolving economic realities and lifestyle choices.\nWhat appeared, at first glance, to be a cyclical consumption \ndeceleration was, in reality, a nuanced reallocation of \ndiscretionary household spending.\nThe post-pandemic surge in home improvement and \nrenovation, which had buoyed demand through FY22-23, \nceded ground to competing priorities — education, healthcare \nprovisioning, mobility upgrades and financial deleveraging.\nIn this reprioritization, categories like sanitaryware and \nfaucetware, though lifestyle-essential, encountered a purchase \ndeferral. Even as consumers continued to seek better living \nenvironments, superior design and enhanced comfort, they \ndeferred purchases while prioritizing their immediate financial \ncommitments.\nThis moderation was visible in the behaviour of first-time \nhome builders and mid-income renovators — the cohorts that \nhave historically underpinned the sector's structural growth. \nReal estate completions continued, but the pace of interior \nfit-outs and finishing slowed, elongating project completion \ncycles. Concurrently, the liquidity tightening experienced in \nsegments of the real estate ecosystem — especially among \nsmaller developers — translated into a cautious procurement \nenvironment.\nYet, even within this environment of moderated offtake, the \nunderlying demand drivers remained intact. India continues \nto urbanize at a pace that is steady and irreversible. The \ngovernment's sustained thrust on housing growth through \nflagship programmes, the steady formalization of the economy, \nrising aspirations of a young demographic, and the increasing \npenetration of branded products in Tier II, III and IV markets \ncollectively provided a durable foundation for the sanitaryware \nindustry and reinforced our confidence that Indian consumers \nwill continue to upgrade their homes in the pursuit of better \nlifestyles.\nWithin this context, CERA focused on understanding and \nresponding to evolving customer priorities while continuing \nto strengthen its brands and market presence. The Company \nreported revenue growth of 7% during FY25-26, supported by a \nstrong second half and the year's best quarterly performance in \nQ4. Margin moderation during the year reflected a deliberate \ncombination of elevated trade support to accelerate channel \nrecovery, sustained investment in Senator and Polipluz, \nand a higher brand-building expenditure — choices that \nour management made in full cognizance of a near-term \nprofitability impact, in favour of a long-term positioning. These \ninvestments were directed to strengthen our ability to serve \ncustomers - whether through the premium appeal of Senator, \nthe value proposition of Polipluz, enhanced retail experiences, \nOverview\ndeeper digital engagement or \nwidened distribution.\nMacro-economic tailwinds \nand the inflection of \ndemand\nThe latter half of FY25-26 marked \na perceptible inflection in \nconsumption sentiment. Policy \ninterventions played a catalytic \nrole. The tax rationalizations \nintroduced in the Union Budget \n2026, coupled with selective \nGST reductions on building \nmaterials and home improvement \ncategories, enhanced disposable \nincome in the hands of consumers. \nThis translated into a revival of \ndiscretionary home spending, \nparticularly in categories that had \nwitnessed deferred demand.\nIndia's consumption story, often \ncharacterized by its elasticity \nto income visibility, responded \npredictably. As household incomes \nstrengthened and inflation \nmoderated in key consumption \nbaskets, consumers reviewed \ntheir postponed decisions, \nparticularly those linked to home \nimprovement.\nFor the sanitaryware sector, the \nrecovery was led by the mass and \nmass-premium categories, where \nvalue-conscious consumers sought \ntrusted brands that combined \ndurability, aesthetics, innovation \nand affordability while reflecting \ntheir evolving aspirations. This \nsegment, expansive in size and \nbroad in geographic spread, \nbecame the fulcrum of the \nindustry's revival.\nCERA's performance mirrored \n— and indeed leveraged — this \nshift, reflecting the Company's \nability to remain connected \nto customer expectations. A \nsubstantial proportion of the \nCompany's revenues and EBITDA \naccrued during the second half of \nIndia continues \nto urbanize at \na pace that is \nboth steady and \nirreversible. \nThe government's \nsustained thrust \non housing \nthrough flagship \nprogrammes, \nthe steady \nformalization \nof the economy, \nrising aspirations \nof a young \ndemographic, and \nthe increasing \npenetration of \nbranded products \nin Tier II, III \nand IV markets \ncollectively \nprovided \na durable \nfoundation for \nthe sanitaryware \nindustry.\nBrand-Led. \nCustomer-\nFocused. \nVikram Somany\nChairman and Managing Director\n2  |  CERA Sanitaryware Limited\nAnnual Report 2025-26  |  3\nBusiness overview\nStatutory reports\nFinancial statements"
+        },
+        {
+          "number": 148,
+          "text": "Business overview\nStatutory reports\nFinancial statements\nAnnual Report 2025-26  |  185\nParticulars\nNote\nNo.\nYear ended\n31st March, 2026\nYear ended\n31st March, 2025\nINCOME\nRevenue from Operations\n29\n2,05,011.98\n1,91,525.12\nOther Income\n30\n5,285.91\n6,249.84\nTotal Income\n2,10,297.89\n1,97,774.96\nEXPENSES\nCost of Materials Consumed\n31\n26,625.14\n25,172.73\nPurchases of Stock-in-Trade\n32\n75,941.12\n69,457.79\nChanges in Inventories of Finished Goods,\n33\n1,264.12\n(3,669.16)\nStock-in-Trade and Work-in-Progress\nEmployee Benefits Expense\n34\n25,943.24\n24,154.29\nFinance Costs\n35\n646.78\n711.57\nDepreciation and Amortization Expense\n36\n3,865.75\n3,851.49\nOther Expenses\n37\n48,319.81\n47,336.58\nTotal Expenses\n1,82,605.96\n1,67,015.29\nProfit before exceptional items and tax\n27,691.93\n30,759.67\nExceptional Items\n55\n(780.68)\n(150.43)\nProfit before tax\n26,911.25\n30,609.24\nTax Expense :\n38\n(1) \t Current Tax\n6,054.27\n6,721.97\n(2) \t Deferred Tax\n438.42\n(761.16)\nTotal Tax Expense\n6,492.69\n5,960.81\nProfit for the year\n20,418.56\n24,648.43\nOther Comprehensive Income\n(i) \t Items that will not be reclassified to profit or loss \nremeasurements of the defined benefit plans\n42.64\n(119.06)\n(ii) \t Income tax relating to items that will not be reclassified to \nprofit or loss\n(10.73)\n29.97\nTotal Other Comprehensive Income for the year (Net of Tax)\n31.91\n(89.09)\nTotal Comprehensive Income for the year\n20,450.47\n24,559.34\nEarnings per equity share of face value of Rs. 5/- each\n(1) \t Basic (in Rs.)\n39\n158.31\n190.40\n(2) \t Diluted (in Rs.)\n39\n158.31\n190.40\nMaterial Accounting Policies\n3\nStatement of Profit and Loss for the year ended 31st March, 2026\n(All amounts are in rupees lakhs, unless otherwise stated)\nThe accompanying notes are integral part of these Financial Statements.\nAs per our report of even date attached.\nFor Singhi & Co.\t\n\t\nVikram Somany\nChartered Accountants\t\n\t\nChairman & Managing Director\n(Firm Registration No. : 302049E) \t\n\t\nDIN: 00048827\nSudesh Choraria\t\nVikas Kothari\t\nDeepshikha Khaitan\nPartner\t\nChief Financial Officer\t\nVice Chairman & Joint Managing Director\nMembership No. 204936\t\nMem. No. ACA 114368\t\nDIN: 03365068\nPlace: Ahmedabad\t\nHemal Sadiwala\t\nAnupam Gupta\nDate: 8th May, 2026\t\nCompany Secretary\t\nExecutive Director (Technical)\n\t\nMem. No. ACS 20741 \t\nDIN: 09290890"
+        }
+      ],
+      "pageCount": 206
+    },
+    "cera-notice": {
+      "id": "cera-notice",
+      "title": "Cera · Q2 & H1 FY27 call invitation",
+      "kind": "Call notice",
+      "period": "Q2 & H1 FY27",
+      "date": "2026-10-22",
+      "status": "saved",
+      "note": "Invitation only. It is not a call transcript and does not establish results or management commentary.",
+      "url": "https://nsearchives.nseindia.com/corporate/CERA_22102026170832_CERAQ2CALL221026s.pdf",
+      "retrieved": "2026-10-30T07:45:24.469122+00:00",
+      "sha256": "cce7618208385116c80703f535c151885d49f7c397524ae2c3cb3454c80d7bfe",
+      "pdf": "/documents/cera-notice.pdf",
+      "pages": [
+        {
+          "number": 1,
+          "text": "CSL/2026-27/155 \n22nd October 2026 \n \nTo, \nBSE Limited \nCorporate Relationship Department \n1st Floor, New Trading Ring \nRotunda Building, P J Towers \nDalal Street, Fort, Mumbai – 400001. \nScrip Code :532443 \nScrip ID: CERA \nTo, \nNational Stock Exchange of India Limited \nExchange Plaza \nBandra Kurla Complex \nBandra (East) \nMumbai – 400051. \n \nScrip Code: CERA \n \nDear Sir / Madam, \n \nSub: Intimation for Q2 & H1 FY27 Earnings Conference Call  \n \nPursuant to Regulation 30 of the Securities and Exchange Board of India (Listing \nObligations and Disclosure Requirements) Regulations, 2015, the Company is hosting Q2 \n& H1 FY27 Earnings Conference call on Thursday, 5th November 2026 at 10:30 AM IST. \n \nThe conference call will be initiated with a brief management discussion on the Q2 & H1 \nFY27 results to be declared on Wednesday, 4th November 2026 followed by an interactive \nQuestion & Answer session. We are attaching the details regarding the conference call for \nyour kind perusal. \n \nThe details of the conference call are as under: \n \nTiming  \n10:30 AM IST on Thursday, 5th November 2026 \nConference dial in Primary number  +91 22 6280 1141 / +91 22 7115 8042 \nSingapore Toll Free Number  \n800 101 2045 \nHong Kong Toll Free Number  \n800 964 448 \nUSA Toll Free Number  \n1 866 746 2133 \nUK Toll Free Number  \n0 808 101 1573 \n \nThanking you, \nFor Cera Sanitaryware Limited, \n \n \nHemal Sadiwala \nCompany Secretary \nEncl: As above \n \nHEMAL \nJANARDAN \nSADIWALA\nDigitally signed by HEMAL JANARDAN SADIWALA \nDN: c=IN, postalCode=380008, st=GUJARAT, street=6 ,JAYKISHAN \nSOCIETY ,AHMEDABAD,MANINAGAR(EAST) ,380008, l=AHMEDABAD, \no=Personal, \nserialNumber=f2fe036f7fce318ced974ed8837dfa1e1c2da169e5861098c\ne6b05679d5c9f6e, pseudonym=3e08b32c6abb4cc08076e6168c7ca9f5, \n2.5.4.20=b0cae7526e125b34f2ec95dab56881936f60053eb469049f9b514\n3725d99a76a, email=HEMAL.111@GMAIL.COM, cn=HEMAL JANARDAN \nSADIWALA \nDate: 2026.10.22 16:54:15 +05'30'"
+        },
+        {
+          "number": 2,
+          "text": "CERA Sanitaryware Ltd.\nQ2 & H1 FY27 \nEarnings Call \nManagement discussion on Q2 & H1 FY27 Financial Results\nDate\nThursday,\n5th November 2026\nTime\n10.30 AM IST\nDISCLAIMER: Certain statements that may be made or discussed at the conference call may be forward-looking statements. Such forward-\nlooking statements are subject to certain risks and uncertainties like Government actions, local, political or economic developments, \ntechnological risks, and many other factors. Actual results might differ substantially from those expressed or implied. Cera Sanitaryware Ltd. will \nnot be in any way responsible for any action taken based on such statements and discussions; and undertakes no obligation to publicly update \nthese forward-looking statements to reflect subsequent events or circumstances.\nFor further information, please contact:\nMr. Vikas Kothari (Chief Financial Officer) \n \nMayank Vaswani /\nMr. Deepak Chaudhary (VP - Finance & IR) \n \nDevrishi Singh\nCERA Sanitaryware Ltd. \n \nCDR India \nTel: +91 2764 242 329  \n \nTel: +91 98209 40953 / \n \nEmail: vikas.kothari@cera-india.com \n \nTel: +91 98205 30918\nEmail: deepak.chaudhary@cera-india.com \n      \nEmail: mayank@cdrindia.com \n \n \nEmail: devrishi@cdr-india.com\nConference Dial-in Details\nPre-Registration\nConference dial in Primary number\n+91 22 6280 1141 / \n+91 22 7115 8042\nSingapore Toll Free Number\n800 101 2045 \nHong Kong Toll Free Number\n800 964 448 \nUSA Toll Free Number\n1 866 746 2133   \nUK Toll Free Number\n0 808 101 1573\nDescription: Click here for Diamond Pass\nPlease dial-in 5 minutes prior to the scheduled start to ensure that you are connected to the call-in time."
+        }
+      ],
+      "pageCount": 2
+    },
+    "kpr-old-call": {
+      "id": "kpr-old-call",
+      "title": "KPR Mill · Q1 FY24 earnings call",
+      "kind": "Earnings-call transcript",
+      "period": "Q1 FY24",
+      "date": "2023-08-04",
+      "status": "stale",
+      "note": "Historical source from August 2023. Excluded from current management commentary. No recent KPR call was established in the saved experiments.",
+      "url": "https://bkend.kprmilllimited.com/media/documents/Q1CONCALLTRANSCRIPT.pdf",
+      "retrieved": "2026-10-30T07:46:11.199096+00:00",
+      "sha256": "82c9edbe9cbb02ba2dba5f89bfa502772988df339532834b1d71cf8ff67f791d",
+      "pdf": "/documents/kpr-old-call.pdf",
+      "pages": [
+        {
+          "number": 4,
+          "text": "KPR Mill Limited\n \n \nAugust 04, 2023 \n \nPage 3 of 23 \n \ndomestic cotton, low arrival of cotton in the market during peak \nseason, import duty on cotton, increase in energy cost, piling up \nof inventories, severe competition from competing countries, etc. \nBut going forward, the situation is improving as exporters are \nslowly but steadily getting orders. \nHowever, we are happy that irrespective of the difficult market \nscenario, KPR could maintain its performance because of its \nvertically integrated facilities, increased revenue and profitability \nfrom sugar segment, stimulated by the favorable ethanol market, \nhave \nbeen \nsupporting \nour \ngrowth \ntrend \ncontinuously.                     \nAs announced in the earlier calls, to generate additional \nrevenue, an exclusive vortex spinning mill at an outlay of \nINR100 crores is established that will be completed in the \ncurrent quarter. The processing and printing expansion at INR50 \ncrores will be over in the current quarter. The rooftop solar plant \nat INR50 crores has been commissioned already. \nThe ethanol capacity expansion at INR150 crores will be \ncompleted before the coming season and also to improve the \nquality and productivity of spinning we are modernising the \nspinning division with a total outlay of INR150 crores. All these \ngrowth initiatives at a total outlay of INR500 crores will result in \nimproving our performance further. With these opening remarks, \nthe floor is now open for question and answer session. Thank \nyou. \nModerator: \nThank you. Ladies and gentlemen, we will now begin with the \nquestion and answer session. The first question is in the line of \nPratik Kothari from Unique Portfolio Managers, please go \nahead. \nPratik Kothari: \nHi, good afternoon, sir, and thank you. So my first question on \nthe garments, if you can highlight where is it that we are signing"
+        }
+      ],
+      "pageCount": 24
+    },
+    "apollo-cover": {
+      "id": "apollo-cover",
+      "title": "Apollo · transcript submission cover letter",
+      "kind": "Cover letter only",
+      "period": "Q1 FY27",
+      "date": "2026-08-19",
+      "status": "partial",
+      "note": "The saved attachment is a single-page cover letter. Its full linked transcript returned HTTP 403 in the local experiment. No call-body research is shown.",
+      "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_19082026180025_transcript_Q1FY27.pdf",
+      "retrieved": "2026-10-30T07:50:51.083475+00:00",
+      "sha256": "0445eb9729101845bcabde88e3044645b306cd7453378561006a4fd960263162",
+      "pdf": "/documents/apollo-cover.pdf",
+      "pages": [
+        {
+          "number": 1,
+          "text": "Tel \n: 044 - 28290956 / 3896 / 6681 \nTelefax \n: 044 - 2829 0956 \nEmail \n: investor.relations@apollohospitals.com \nWebsite : www.apollohospitals.com \nGeneral Office : \n\"Ali Towers\" Ill Floor, \n#55, Greams Road, \nChennai - 600 006. \nRegd. Office : \n19, Bishop Gardens, \nRaja Annamalaipuram, \nChennai - 600 028. \nIS/ISO 9001 \n: 2000 \nCIN: L85110TN1979PLC008035 \nAPOLLO HOSPITALS ENTERPRISE LIMITED \n \n \n \n \nAugust 19, 2026 \n \nThe Secretary, \nBombay Stock Exchange Ltd (BSE) \nPhiroze Jheejheebhoy Towers,  \nDalal Street,  \nMumbai – 400 001. \nScrip Code – 508869 \nISIN INE437A01024 \nThe Secretary, \nNational  Stock Exchange, \nExchange Plaza, 5th Floor \nPlot No.C/1, ‘G’ Block \nBandra – Kurla Complex \nBandra (E) \nMumbai – 400 051. \nScrip Code– \nAPOLLOHOSP \nISIN INE437A01024 \n \n \nDear Sir/Madam,  \n \nSubject: Transcript of the Presentation on unaudited financial results for three months ended \nJune 30, 2026 \n \nPursuant to Regulations 30 and 46(2) of the SEBI (Listing Obligations and Disclosure \nRequirements) Regulations, 2015, as amended, we hereby inform you that the transcript of \nthe presentation made on August 13, 2026 on the unaudited financial results for the three \nmonths ended June 30, 2026 is available on the Company’s website.  \n \nThe link to access the said transcript is: \n \nhttps://www.apollohospitals.com/sites/default/files/2026-08/transcript-of-apollo-hospitals--\n-q1-fy27-earnings-call.pdf \n \nKindly note of the same.  \n \nThanking You,  \n \nYours faithfully, \nFor APOLLO HOSPITALS ENTERPRISE LIMITED \n \n \n   \nS.M. KRISHNAN \nSr. VICE PRESIDENT – FINANCE \nAND COMPANY SECRETARY \n \nSANKARAN\nARAYANAN \nMUTHU \nKRISHNAN\nDigitally signed by \nSANKARANARAYA\nNAN MUTHU \nKRISHNAN \nDate: 2026.08.19 \n17:51:42 +05'30'"
+        }
+      ],
+      "pageCount": 1
+    }
+  },
+  "evidence": {
+    "infy-growth": {
+      "doc": "infy-call",
+      "page": 25,
+      "label": "Growth, AI revenue and large deals",
+      "passage": "Our revenue growth for Q2 was at 1.5% YoY and 1.2% sequentially in constant currency terms. Our AI revenue was standout at 10.5% of our total revenue, growing 29% sequentially. Last quarter, it was at 8.2%.",
+      "context": "Salil Parekh · management opening remarks. Constant-currency growth; AI share of total revenue. These are reported management statements, not an investment verdict."
+    },
+    "infy-deals": {
+      "doc": "infy-call",
+      "page": 25,
+      "label": "Large-deal disclosure",
+      "passage": "Our large deals were another standout at $5.2 bn for the quarter. This includes two mega deals. One of these mega deals was for over $2 bn with a large international company for a period of seven years and it is net new. This deal is expected to contribute over 1% of revenue growth in the coming financial year. The second mega deal was for $1 bn for a renewal.",
+      "context": "A multi-year deal value is not quarterly revenue. The future contribution is a management expectation."
+    },
+    "infy-business": {
+      "doc": "infy-annual",
+      "page": 10,
+      "label": "Business description",
+      "passage": "Infosys is a global leader in AI-first business consulting and technology services. Over 3,25,000 of our people work to amplify human potential and create the next opportunity for people, businesses, and communities. As navigators of enterprise transformation, we enable businesses in 59 countries to unlock AI value at scale.",
+      "context": "Company description in annual report FY2025–26. Wording belongs to the company."
+    },
+    "kpr-consolidated": {
+      "doc": "kpr-results",
+      "page": 9,
+      "label": "Consolidated quarterly results",
+      "passage": "K.P.R. MILL LIMITED\naN : L17111IIZ2003PLC010518\nRegistered Office : No.9 Goku! Building, I Floor, A.K.S.nagar, Thadagam Road, Coimbatore - 641 001.\nEmail : corporate@kprmiII.com Web : www.kprmilllimited.com\nPhone : 0422-2207777\nSI.No\nParticulars\nQuarter Ended\nHalf Year Ended\nYear Ended\n30.09.2026\n30.06.2026\n30.09.2025\n30.09.2026\n30.09.2025\n31.03.2026\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Unaudited)\n(Audited)\nl\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\nIncome\n(a) Revenue from operations\n(i) Sale of products and services\n(ii) Other operating revenue\n(b) Other income\nTotal income\nExpenses\n(a) Cost of materials consumed\n(b) Purchase of stock-in-trade\n(c) Changes in inventories of finished goods,\nstock-in-trade and work-in-progress\n(d) Employee benefits expense\n(e) Finance costs\n(f) Depreciation and amortisation expenses\n(g) Other expenses\nTotal expenses\nProfit before exceptional items and tax (1-2)\nExceptional items\nProfit before tax (3+4)\nTax expenses\na) Current tax\nb) Deferred tax\nTotal Tax\nProfit for the period (5-6)\nShare of Profit/ (Loss) of Associates\nMinority Interest\nNet Profit after taxes, Minority interest\nand share of profit of associates (7+8+9)\nOther comprehensive income\nA (i) Items that will not be reclassified to profit\nor loss\n(ii) Income tax relating to items that will not\nbe reclassified to profit or loss\nB (i) Items that will be reclassified to profit or\nloss\n(ii) Income tax relating to items that will\nbe\nreclassified to profit or loss\nTotal comprehensive income for the period\n(10+11)\nPaid-up equity share capital (Face value of ? 1\neach)\noral Reserves i.e. Other equity\nBasic and Diluted Earnings per share (in ?\n(Not annualised for quarters)\n1,87,117\n6,857\n4,913\n1,85,429\n8,123\n3,474\n1,56,886\n6,317\n2,393\n3,72,546\n14,980\n8,387\n3,25,526\n14,304\n5,991\n6,37,764\n27,273\n13,392\n1,98,887\n1,97,026\n1,65,596\n3,95,913\n3,45,821\n6,78,429\n79,033\n1,326\n27,415\n21,533\n1,177\n5,565\n14,899\n76,932\n1,474\n36,382\n24,372\n1,453\n5,649\n16,908\n77,186\n1,611\n19,871\n19,626\n1,224\n5,382\n13,486\n1,55,965\n2,800\n63,797\n45,905\n2,630\n11,214\n31,807\n1,62,097\n2,971\n46,755\n38,484\n2,614\n10,705\n27,075\n4,10,134\n4,959\n(11,098)\n78,304\n5,160\n21,560\n56,010\n1,50,948\n1,63,170\n1,38,386\n3,14,118\n2,90,701\n5,65,029\n47,939\n47,939\n12,845\n594\n33,856\n33,856\n7,559\n443\n27,210\n27,210\n5,882\n(475)\n81,795\n81,795\n20,404\n1,037\n55,120\n55,120\n12,576\n(529)\n1,13,400\n1,13,400\n25,115\n1,635\n13,439\n8,002\n5,407\n21,441\n12,047\n26,750\n34,500\n34,500\n34,500\n3,418\n10.09\n25,854\n25,854\n25,854\n3,418\n7.56\n21,803\n21,803\n21,803\n3,418\n6.38\n60,354\n60,354\n60,354\n3,418\n17.66\n43,073\n43,073\n43,073\n3,418\n12.60\n86,650\n86,650\n86,650\n3,418\n5,66,342\n25.35\nSTATEMENT OF UNAUDITED FINANCIAL RESULTS (CONSOLIDATED) FOR THE QUARTER / HALF YEAR ENDED 30TH SEPTEMBER 2026\nR in Lakhs`\nQ-L 5\n`\n>»",
+      "context": "Original PDF text, with extraction line breaks retained. Quarter ended 30 September 2026; consolidated; INR lakh. See the source-page image for the aligned table. Revenue from operations = sale of products/services 187,117 + other operating revenue 6,857 = 193,974 lakh. PAT 34,500 lakh. Arithmetic and summary manually checked."
+    },
+    "cera-outlook": {
+      "doc": "cera-call",
+      "page": 4,
+      "label": "FY27 brand investment and outlook",
+      "passage": "Building on the launch of our new brand campaign, we are entering into the next phase of our brand-building journey. During FY27, we plan to invest approximately INR 85 crore towards brand-building and marketing initiatives. These initiatives will span television, digital, social media and on-ground activations to further strengthen consumer engagement and enhance brand visibility. Our focus will remain on deepening consumer connect and reinforcing Cera's position across key markets. Overall, we have made a strong start to FY27 and believe that the Company is well- positioned to build on this momentum. Supported by improving demand conditions, a strong balance sheet, continued investments in strengthening digital and channel capabilities, we remain confident of sustaining our growth momentum and maintaining our FY27 revenue growth guidance of 18% to 20%. Our focus will continue to remain on disciplined execution, strengthening our market leadership, and creating sustainable long-term value for all our stakeholders.",
+      "context": "Management remarks from 8 August 2026. Approximate planned spend and FY27 revenue guidance, not delivered full-year results."
+    },
+    "cera-context": {
+      "doc": "cera-annual",
+      "page": 3,
+      "label": "Demand context in the annual report",
+      "passage": "Even as consumers continued to seek better living environments, superior design and enhanced comfort, they deferred purchases while prioritizing their immediate financial commitments.",
+      "context": "Chairman and managing director’s overview. Management’s description of demand, not an independently verified causal conclusion."
+    },
+    "cera-notice": {
+      "doc": "cera-notice",
+      "page": 1,
+      "label": "Original invitation",
+      "passage": "CSL/2026-27/155 \n22nd October 2026 \n \nTo, \nBSE Limited \nCorporate Relationship Department \n1st Floor, New Trading Ring \nRotunda Building, P J Towers \nDalal Street, Fort, Mumbai – 400001. \nScrip Code :532443 \nScrip ID: CERA \nTo, \nNational Stock Exchange of India Limited \nExchange Plaza \nBandra Kurla Complex \nBandra (East) \nMumbai – 400051. \n \nScrip Code: CERA \n \nDear Sir / Madam, \n \nSub: Intimation for Q2 & H1 FY27 Earnings Conference Call  \n \nPursuant to Regulation 30 of the Securities and Exchange Board of India (Listing \nObligations and Disclosure Requirements) Regulations, 2015, the Company is hosting Q2 \n& H1 FY27 Earnings Conference call on Thursday, 5th November 2026 at 10:30 AM IST. \n \nThe conference call will be initiated with a brief management discussion on the Q2 & H1 \nFY27 results to be declared on Wednesday, 4th November 2026 followed by an interactive \nQuestion & Answer session. We are attaching the details regarding the conference call for \nyour kind perusal. \n \nThe details of the conference call are as under: \n \nTiming  \n10:30 AM IST on Thursday, 5th November 2026 \nConference dial in Primary number  +91 22 6280 1141 / +91 22 7115 8042 \nSingapore Toll Free Number  \n800 101 2045 \nHong Kong Toll Free Number  \n800 964 448 \nUSA Toll Free Number  \n1 866 746 2133 \nUK Toll Free Number  \n0 808 101 1573 \n \nThanking you, \nFor Cera Sanitaryware Limited, \n \n \nHemal Sadiwala \nCompany Secretary \nEncl: As above \n \nHEMAL \nJANARDAN \nSADIWALA\nDigitally signed by HEMAL JANARDAN SADIWALA \nDN: c=IN, postalCode=380008, st=GUJARAT, street=6 ,JAYKISHAN \nSOCIETY ,AHMEDABAD,MANINAGAR(EAST) ,380008, l=AHMEDABAD, \no=Personal, \nserialNumber=f2fe036f7fce318ced974ed8837dfa1e1c2da169e5861098c\ne6b05679d5c9f6e, pseudonym=3e08b32c6abb4cc08076e6168c7ca9f5, \n2.5.4.20=b0cae7526e125b34f2ec95dab56881936f60053eb469049f9b514\n3725d99a76a, email=HEMAL.111@GMAIL.COM, cn=HEMAL JANARDAN \nSADIWALA \nDate: 2026.10.22 16:54:15 +05'30'",
+      "context": "A call notice is a scheduled event. It contains no actual call discussion."
+    },
+    "kpr-stale": {
+      "doc": "kpr-old-call",
+      "page": 4,
+      "label": "Historical call · not current",
+      "passage": "KPR Mill Limited\n \n \nAugust 04, 2023 \n \nPage 3 of 23 \n \ndomestic cotton, low arrival of cotton in the market during peak \nseason, import duty on cotton, increase in energy cost, piling up \nof inventories, severe competition from competing countries, etc. \nBut going forward, the situation is improving as exporters are \nslowly but steadily getting orders. \nHowever, we are happy that irrespective of the difficult market \nscenario, KPR could maintain its performance because of its \nvertically integrated facilities, increased revenue and profitability \nfrom sugar segment, stimulated by the favorable ethanol market, \nhave \nbeen \nsupporting \nour \ngrowth \ntrend \ncontinuously.                     \nAs announced in the earlier calls, to generate additional \nrevenue, an exclusive vortex spinning mill at an outlay of \nINR100 crores is established that will be completed in the \ncurrent quarter. The processing and printing expansion at INR50 \ncrores will be over in the current quarter. The rooftop solar plant \nat INR50 crores has been commissioned already. \nThe ethanol capacity expansion at INR150 crores will be \ncompleted before the coming season and also to improve the \nquality and productivity of spinning we are modernising the \nspinning division with a total outlay of INR150 crores. All these \ngrowth initiatives at a total outlay of INR500 crores will result in \nimproving our performance further. With these opening remarks, \nthe floor is now open for question and answer session. Thank \nyou. \nModerator: \nThank you. Ladies and gentlemen, we will now begin with the \nquestion and answer session. The first question is in the line of \nPratik Kothari from Unique Portfolio Managers, please go \nahead. \nPratik Kothari: \nHi, good afternoon, sir, and thank you. So my first question on \nthe garments, if you can highlight where is it that we are signing",
+      "context": "Stale example: August 2023. Kept available for inspection; not used for a 2026 management outlook."
+    },
+    "apollo-partial": {
+      "doc": "apollo-cover",
+      "page": 1,
+      "label": "Cover letter · transcript body missing",
+      "passage": "Tel \n: 044 - 28290956 / 3896 / 6681 \nTelefax \n: 044 - 2829 0956 \nEmail \n: investor.relations@apollohospitals.com \nWebsite : www.apollohospitals.com \nGeneral Office : \n\"Ali Towers\" Ill Floor, \n#55, Greams Road, \nChennai - 600 006. \nRegd. Office : \n19, Bishop Gardens, \nRaja Annamalaipuram, \nChennai - 600 028. \nIS/ISO 9001 \n: 2000 \nCIN: L85110TN1979PLC008035 \nAPOLLO HOSPITALS ENTERPRISE LIMITED \n \n \n \n \nAugust 19, 2026 \n \nThe Secretary, \nBombay Stock Exchange Ltd (BSE) \nPhiroze Jheejheebhoy Towers,  \nDalal Street,  \nMumbai – 400 001. \nScrip Code – 508869 \nISIN INE437A01024 \nThe Secretary, \nNational  Stock Exchange, \nExchange Plaza, 5th Floor \nPlot No.C/1, ‘G’ Block \nBandra – Kurla Complex \nBandra (E) \nMumbai – 400 051. \nScrip Code– \nAPOLLOHOSP \nISIN INE437A01024 \n \n \nDear Sir/Madam,  \n \nSubject: Transcript of the Presentation on unaudited financial results for three months ended \nJune 30, 2026 \n \nPursuant to Regulations 30 and 46(2) of the SEBI (Listing Obligations and Disclosure \nRequirements) Regulations, 2015, as amended, we hereby inform you that the transcript of \nthe presentation made on August 13, 2026 on the unaudited financial results for the three \nmonths ended June 30, 2026 is available on the Company’s website.  \n \nThe link to access the said transcript is: \n \nhttps://www.apollohospitals.com/sites/default/files/2026-08/transcript-of-apollo-hospitals--\n-q1-fy27-earnings-call.pdf \n \nKindly note of the same.  \n \nThanking You,  \n \nYours faithfully, \nFor APOLLO HOSPITALS ENTERPRISE LIMITED \n \n \n   \nS.M. KRISHNAN \nSr. VICE PRESIDENT – FINANCE \nAND COMPANY SECRETARY \n \nSANKARAN\nARAYANAN \nMUTHU \nKRISHNAN\nDigitally signed by \nSANKARANARAYA\nNAN MUTHU \nKRISHNAN \nDate: 2026.08.19 \n17:51:42 +05'30'",
+      "context": "Partial/failure example. A successful PDF download does not mean a full transcript was acquired."
+    }
+  },
+  "briefs": {
+    "INFY": {
+      "headline": "Growth and AI mix, in management’s words.",
+      "coverage": "Annual report + actual Q2 FY27 earnings call saved.",
+      "date": "Call: 23 Oct 2026 · filed 28 Oct",
+      "documents": [
+        "infy-annual",
+        "infy-call"
+      ],
+      "facts": [
+        {
+          "label": "Business",
+          "text": "Infosys describes its business as AI-first consulting and technology services, supporting enterprise transformation.",
+          "evidence": "infy-business"
+        },
+        {
+          "label": "Management commentary",
+          "text": "Management reported Q2 constant-currency revenue growth of 1.5% YoY and 1.2% sequentially. AI revenue represented 10.5% of total revenue, up from 8.2% last quarter.",
+          "evidence": "infy-growth"
+        },
+        {
+          "label": "What to investigate",
+          "text": "Management disclosed $5.2 billion of large deals, including a seven-year net-new deal of over $2 billion. Check conversion timing: deal value is not the same as quarterly revenue.",
+          "evidence": "infy-deals"
+        }
+      ]
+    },
+    "CERA": {
+      "headline": "Read the outlook with its date attached.",
+      "coverage": "Annual report + August Q1 FY27 call saved. October filing is a call notice only.",
+      "date": "Call: 8 Aug 2026 · Q1 FY27",
+      "documents": [
+        "cera-annual",
+        "cera-call",
+        "cera-notice"
+      ],
+      "facts": [
+        {
+          "label": "Annual-report context",
+          "text": "Management’s annual-report overview describes customers deferring sanitaryware and faucetware purchases while prioritising other household commitments.",
+          "evidence": "cera-context"
+        },
+        {
+          "label": "Management outlook",
+          "text": "In the August call, management maintained FY27 revenue-growth guidance of 18–20% and planned approximately ₹85 crore of brand-building and marketing investment.",
+          "evidence": "cera-outlook"
+        },
+        {
+          "label": "What remains open",
+          "text": "These are forward-looking statements. The October Q2 invitation does not establish delivery against them; a newer actual call is not saved here.",
+          "evidence": "cera-notice"
+        }
+      ]
+    },
+    "KPRMILL": {
+      "headline": "Current results. A gap in current commentary.",
+      "coverage": "October results saved; the only saved call is from August 2023 and is excluded from current outlook.",
+      "date": "Results: quarter ended 30 Sep 2026",
+      "documents": [
+        "kpr-results",
+        "kpr-old-call"
+      ],
+      "facts": [
+        {
+          "label": "Verified results excerpt",
+          "text": "Quarterly consolidated revenue from operations was ₹1,939.74 crore; PAT was ₹345.00 crore. The original table is in INR lakh, and the conversion divides by 100.",
+          "evidence": "kpr-consolidated"
+        },
+        {
+          "label": "Stale source",
+          "text": "The available Q1 FY24 transcript is dated 4 August 2023. It cannot support a current management view.",
+          "evidence": "kpr-stale"
+        }
+      ]
+    },
+    "APOLLOHOSP": {
+      "headline": "No research conclusion from a cover letter.",
+      "coverage": "Partial: saved one-page submission; the full linked call returned HTTP 403 in the local experiment.",
+      "date": "Cover letter: 19 Aug 2026",
+      "documents": [
+        "apollo-cover"
+      ],
+      "facts": [
+        {
+          "label": "Missing call body",
+          "text": "A transcript submission was downloaded, but it contains only a cover letter. Current management commentary is unavailable in this preview.",
+          "evidence": "apollo-partial"
+        }
+      ]
+    }
+  }
+}

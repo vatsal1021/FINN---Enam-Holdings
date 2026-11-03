@@ -1,0 +1,40 @@
+{
+  "scope": "Single attachment revalidation only; no portfolio/price/feed refresh",
+  "seconds": 2.936,
+  "document": {
+    "id": "bc0bb848272fef56931cc33d",
+    "event_id": "nse-SUNPHARMA-106836275",
+    "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "status": "ready",
+    "sha256": "a61d4ac3bb8430419e443083de66f0e77bc9a714a8bfe141d067fdbbbec85c33",
+    "retrieved": "2026-10-30T11:37:03.046096+00:00",
+    "pageCount": 34,
+    "excerpt_page": 12,
+    "validation": {
+      "signature": true,
+      "structure": "no repair required",
+      "company_identity": true,
+      "text_layer": true,
+      "numeric_table_validation": "not performed"
+    },
+    "error": null
+  },
+  "source": {
+    "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "kind": "filing-pdf",
+    "retrieved_at": "2026-10-30T11:37:03.046096+00:00",
+    "http_status": 200,
+    "ok": true,
+    "final_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "job_id": null,
+    "content_type": "application/pdf",
+    "content_length": "16048521",
+    "content_range": null,
+    "seconds": 2.556,
+    "id": "5d578a58188442089762dcbd2aba335a",
+    "sha256": "a61d4ac3bb8430419e443083de66f0e77bc9a714a8bfe141d067fdbbbec85c33",
+    "bytes": 16048521,
+    "validation": "passed",
+    "validation_error": null
+  }
+}

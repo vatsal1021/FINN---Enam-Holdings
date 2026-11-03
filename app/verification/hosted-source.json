@@ -1,0 +1,468 @@
+{
+  "checked_at": "2026-10-30T21:57:12.897253+00:00",
+  "base": "https://finn-enam-holdings.onrender.com",
+  "phase": "source",
+  "model_available": false,
+  "document": {
+    "id": "3e7c4e2a2b30f514af1a69bb",
+    "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+    "period": "Q2 FY2027",
+    "retrieved": "2026-10-30T12:13:25.053528+00:00",
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+    "has_file": false
+  },
+  "refresh_job": {
+    "id": "5fbf8154de184881b186578c57e4d4bc",
+    "status": "complete",
+    "started_at": "2026-10-30T21:57:15.937705+00:00",
+    "expires_at": "2026-10-30T22:03:15.937705+00:00",
+    "tickers": [
+      "APOLLOHOSP",
+      "BHARTIARTL",
+      "CERA",
+      "ELGIEQUIP",
+      "HDFCBANK",
+      "HINDUNILVR",
+      "INFY",
+      "KPRMILL",
+      "LT",
+      "MARUTI",
+      "NTPC",
+      "PERSISTENT",
+      "RELIANCE",
+      "SUNPHARMA",
+      "TATASTEEL"
+    ],
+    "start": "2026-10-24",
+    "end": "2026-10-31",
+    "requested_eod": "2026-10-30",
+    "completed": 15,
+    "errors": [],
+    "finished_at": "2026-10-30T21:57:45.430606+00:00",
+    "eod_date": "2026-10-30",
+    "elapsed_seconds": 29.477,
+    "companies_passed": 15,
+    "companies_failed": 0,
+    "inserted": 13,
+    "updated": 53,
+    "document_results": [
+      {
+        "event_id": "nse-RELIANCE-106837406",
+        "status": "ready",
+        "error": null
+      },
+      {
+        "event_id": "nse-RELIANCE-106837394",
+        "status": "ready",
+        "error": null
+      }
+    ]
+  },
+  "coverage_after_refresh": {
+    "checked": 15,
+    "passed": 15,
+    "failed": 0,
+    "notChecked": 0,
+    "attachmentsReady": 4,
+    "attachmentsFailed": 0,
+    "attachmentsNotRequested": 70
+  },
+  "company_outcomes": [
+    {
+      "ticker": "INFY",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:INFY",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "INFY",
+        "started_at": "2026-10-30T21:57:25.142131+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 8,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "a4f50320561f4d2bbd933f130ace3bbd",
+        "finished_at": "2026-10-30T21:57:26.223836+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "RELIANCE",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:RELIANCE",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "RELIANCE",
+        "started_at": "2026-10-30T21:57:32.424396+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 8,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "8e14260b884540deadd213147de39d04",
+        "finished_at": "2026-10-30T21:57:33.437435+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:HDFCBANK",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "HDFCBANK",
+        "started_at": "2026-10-30T21:57:22.862110+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 3,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HDFCBANK&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "20ff55c5bdcc4ccaaa40fd86ecdc61cf",
+        "finished_at": "2026-10-30T21:57:23.914696+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:BHARTIARTL",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "BHARTIARTL",
+        "started_at": "2026-10-30T21:57:19.731070+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 5,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=BHARTIARTL&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "68c32773d634407283064910689cca2f",
+        "finished_at": "2026-10-30T21:57:20.609480+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "LT",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:LT",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "LT",
+        "started_at": "2026-10-30T21:57:27.632138+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 6,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=LT&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "64fbc20d5c764fd2acd941872bcef390",
+        "finished_at": "2026-10-30T21:57:28.659955+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "MARUTI",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:MARUTI",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "MARUTI",
+        "started_at": "2026-10-30T21:57:28.838123+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 8,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=MARUTI&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "066867b34bd646fbad64535c888b970e",
+        "finished_at": "2026-10-30T21:57:30.074795+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:SUNPHARMA",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "SUNPHARMA",
+        "started_at": "2026-10-30T21:57:33.603419+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 5,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=SUNPHARMA&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "8d66945ec1ef432396709fd764deb3b4",
+        "finished_at": "2026-10-30T21:57:34.591659+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:HINDUNILVR",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "HINDUNILVR",
+        "started_at": "2026-10-30T21:57:24.081025+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 10,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HINDUNILVR&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "050dbcc1fa004b5c9611c8413e8c0cd2",
+        "finished_at": "2026-10-30T21:57:24.975465+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "NTPC",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:NTPC",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "NTPC",
+        "started_at": "2026-10-30T21:57:30.244436+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 3,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=NTPC&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "729878f733d0434295a7181e8d542f86",
+        "finished_at": "2026-10-30T21:57:31.155335+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "TATASTEEL",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:TATASTEEL",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "TATASTEEL",
+        "started_at": "2026-10-30T21:57:34.760089+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 1,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TATASTEEL&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "00ffd8480df64103b65067febc5863e3",
+        "finished_at": "2026-10-30T21:57:35.617425+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:APOLLOHOSP",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "APOLLOHOSP",
+        "started_at": "2026-10-30T21:57:18.109351+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 0,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "a290fe1971ff437cb4f4d799f6573be3",
+        "finished_at": "2026-10-30T21:57:19.557263+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "KPRMILL",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:KPRMILL",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "KPRMILL",
+        "started_at": "2026-10-30T21:57:26.390584+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 5,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=KPRMILL&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "4221d0ec8d934bb39116477d736bb2a0",
+        "finished_at": "2026-10-30T21:57:27.414850+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "CERA",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:CERA",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "CERA",
+        "started_at": "2026-10-30T21:57:20.780608+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 0,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=CERA&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "4f0b0b25ea794ba3b5c5c1306c36300f",
+        "finished_at": "2026-10-30T21:57:21.667330+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "PERSISTENT",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:PERSISTENT",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "PERSISTENT",
+        "started_at": "2026-10-30T21:57:31.325132+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 3,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=PERSISTENT&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "e4ab8838c52b465eb57df791dca11441",
+        "finished_at": "2026-10-30T21:57:32.256760+00:00"
+      },
+      "coverage": "saved"
+    },
+    {
+      "ticker": "ELGIEQUIP",
+      "check": {
+        "id": "5fbf8154de184881b186578c57e4d4bc:ELGIEQUIP",
+        "job_id": "5fbf8154de184881b186578c57e4d4bc",
+        "ticker": "ELGIEQUIP",
+        "started_at": "2026-10-30T21:57:21.840806+00:00",
+        "start": "2026-10-24",
+        "end": "2026-10-31",
+        "eod_status": "passed",
+        "filings_status": "passed",
+        "filing_count": 1,
+        "eod_error": null,
+        "filings_error": null,
+        "eod_request_id": "d1724f10ae704c3983087040a7d22bef",
+        "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ELGIEQUIP&from_date=24-10-2026&to_date=31-10-2026",
+        "eod_date": "2026-10-30",
+        "announcements_request_id": "74b39e794b3f4fb38a84d33a75c77768",
+        "finished_at": "2026-10-30T21:57:22.692305+00:00"
+      },
+      "coverage": "saved"
+    }
+  ],
+  "finished_at": "2026-10-30T21:57:49.640448+00:00",
+  "checks": [
+    {
+      "check": "Hosted health",
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "mode": "real-source push and cited company research",
+        "model_enabled": false
+      }
+    },
+    {
+      "check": "15 companies remain readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery provenance visible",
+      "passed": true,
+      "detail": {
+        "restored_at": "2026-10-30T21:56:25.519112+00:00",
+        "snapshot_exported_at": "2026-10-30T21:46:55.429570+00:00",
+        "note": "Restored dated source metadata/text. Raw response/PDF files are not bundled. New retrieval timestamps change only after real requests."
+      }
+    },
+    {
+      "check": "Free-host storage declared ephemeral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Private answer/audit tables absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Hosted pull retrieves real evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual call p25 retrievable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves to full saved source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual source job finished",
+      "passed": true,
+      "detail": {
+        "status": "complete",
+        "errors": []
+      }
+    },
+    {
+      "check": "Hosted refreshed EOD and filings passed",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 10,
+  "total": 10
+}

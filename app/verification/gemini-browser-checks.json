@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-30T21:50:11.404Z",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 375
+  },
+  "question": "What constant-currency revenue growth did management report for Q2 FY27?",
+  "answer": "1.5% YoY and 1.2% sequentially in constant currency",
+  "citation": {
+    "doc": "3e7c4e2a2b30f514af1a69bb",
+    "page": 25,
+    "quote": "Our revenue growth for Q2 was at 1.5% YoY and 1.2% sequentially in constant currency terms."
+  },
+  "full_saved_page_opened": true,
+  "source_tab_viewport": "Default browser width; not claimed as a phone-width saved-page test",
+  "return_focus": "INFY · Q2 FY2027 · p. 25 ↗",
+  "return_question_preserved": true,
+  "repeat_drawer_scroll_before": 837.5999755859375,
+  "repeat_drawer_scroll_after": 837.5999755859375,
+  "captured_errors": [],
+  "physical_phone": false
+}

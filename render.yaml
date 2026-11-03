@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: finn-enam
+    runtime: python
+    plan: free
+    buildCommand: pip install -r app/requirements.txt
+    startCommand: python -m app.server --host 0.0.0.0
+    healthCheckPath: /health
+    envVars:
+      - key: FINN_DATA_DIR
+        value: /tmp/finn-runtime
+      - key: FINN_EPHEMERAL
+        value: "1"
+      - key: FINN_AUTO_REFRESH
+        value: "1"
+      - key: GEMINI_API_KEY
+        sync: false

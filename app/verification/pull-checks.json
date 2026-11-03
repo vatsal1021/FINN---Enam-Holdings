@@ -1,0 +1,1491 @@
+{
+  "checked_at": "2026-10-30T21:47:17.973884+00:00",
+  "scope": "Real saved PDFs, metadata and local HTTP; no new upstream or model requests. Mobile observations are separate.",
+  "passed": 157,
+  "total": 157,
+  "warm_http_query_seconds": [
+    0.1414,
+    0.1341,
+    0.1297,
+    0.1383,
+    0.1359
+  ],
+  "outcomes": [
+    {
+      "ticker": "INFY",
+      "status": "ready",
+      "job_id": "c52d54e2214849c0b1b0d615f80abaf1",
+      "seconds": 10.51,
+      "checked_at": "2026-10-30T12:13:26.741567+00:00",
+      "warnings": [],
+      "errors": [],
+      "documents": [
+        {
+          "id": "e80016409935ad6778f1c19b",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-05-30",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 384,
+          "chunks": 963,
+          "sha256": "4fc4a071157f446bfc96f71763159122059c9881870e245cb9383069906bf3e8",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29313_INFY_2025_2026_U_8985411_30052026200413.pdf",
+          "source_id": "54a9ad83e0f140c1902cc3e0b3feb9c2",
+          "discovery_source_id": "cffd268bfe94481190ccc8bfc95dc3f4",
+          "retrieved": "2026-10-30T12:13:17.425856+00:00",
+          "indexed_pages": 382,
+          "extracted_pages": 384
+        },
+        {
+          "id": "3e7c4e2a2b30f514af1a69bb",
+          "source_kind": "call",
+          "period": "Q2 FY2027",
+          "date": "2026-10-28",
+          "call_date": "2026-10-23",
+          "freshness": "dated",
+          "pageCount": 48,
+          "chunks": 47,
+          "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+          "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+          "source_id": "0fd6e91cd7bc4154a4926f65c6b68ea1",
+          "discovery_source_id": "7b6006861cbf49029a2ae48c9685c3dc",
+          "retrieved": "2026-10-30T12:13:25.053528+00:00",
+          "indexed_pages": 25,
+          "extracted_pages": 48
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29313_INFY_2025_2026_U_8985411_30052026200413.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-05-30T20:04:13+05:30",
+          "revision": "Revised",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=INFY",
+          "discovery_source_id": "cffd268bfe94481190ccc8bfc95dc3f4",
+          "document_id": "e80016409935ad6778f1c19b",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29297_INFY_2025_2026_A_8985010_29052026200926.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-05-29T20:09:26+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=INFY",
+          "discovery_source_id": "cffd268bfe94481190ccc8bfc95dc3f4"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_26481_INFY_2024_2025_A_02062025153945.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_end": 2025,
+          "published_at": "2025-06-02T15:39:45+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=INFY",
+          "discovery_source_id": "cffd268bfe94481190ccc8bfc95dc3f4"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24073_INFY_2023_2024_03062024153021.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_end": 2024,
+          "published_at": "2024-06-03T15:30:21+05:30",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=INFY",
+          "discovery_source_id": "cffd268bfe94481190ccc8bfc95dc3f4"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+          "label": "Infosys Limited has informed the Exchange regarding 'Earnings Call Transcript'.",
+          "published_at": "2026-10-28T17:38:42+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "7b6006861cbf49029a2ae48c9685c3dc",
+          "state": "ready",
+          "document_id": "3e7c4e2a2b30f514af1a69bb",
+          "error": null
+        }
+      ]
+    },
+    {
+      "ticker": "CERA",
+      "status": "ready",
+      "job_id": "4245ed7aa5d840d695c1559d2992211a",
+      "seconds": 5.821,
+      "checked_at": "2026-10-30T12:13:32.632834+00:00",
+      "warnings": [],
+      "errors": [],
+      "documents": [
+        {
+          "id": "c0639e4915bd26cb67a93f6b",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-06-29",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 207,
+          "chunks": 517,
+          "sha256": "c2214531c3283a32b4aefbb99edcb6fb4d4e5bf49ef0d84cd1b6bffbd43c357c",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29479_CERA_2025_2026_A_3839462_29062026153621.pdf",
+          "source_id": "5a864be3717d4a9494d0efd5d254d404",
+          "discovery_source_id": "19a43a63058440e1a8acc370544c894f",
+          "retrieved": "2026-10-30T12:13:27.198145+00:00",
+          "indexed_pages": 205,
+          "extracted_pages": 207
+        },
+        {
+          "id": "8b831e0091156806a92a2afc",
+          "source_kind": "call",
+          "period": "Q1 FY2027",
+          "date": "2026-08-12",
+          "call_date": "2026-08-08",
+          "freshness": "dated",
+          "pageCount": 15,
+          "chunks": 37,
+          "sha256": "24f52a8bf6b7fa0764c9c1e352dfb80fc90c1082907b3344de5af7a745fcb528",
+          "url": "https://nsearchives.nseindia.com/corporate/CERA_12082026161310_CERAQ1FY27Transcript12082026s.pdf",
+          "source_id": "6a571d1209b340b8b2169c1b38cb469c",
+          "discovery_source_id": "0b6478a0081d4180b0b23d720b5c2af5",
+          "retrieved": "2026-10-30T12:13:31.553716+00:00",
+          "indexed_pages": 14,
+          "extracted_pages": 15
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29479_CERA_2025_2026_A_3839462_29062026153621.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-06-29T15:36:21+05:30",
+          "revision": "New",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=CERA",
+          "discovery_source_id": "19a43a63058440e1a8acc370544c894f",
+          "document_id": "c0639e4915bd26cb67a93f6b",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_26581_CERA_2024_2025_A_20062025161718.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_end": 2025,
+          "published_at": "2025-06-20T16:17:18+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=CERA",
+          "discovery_source_id": "19a43a63058440e1a8acc370544c894f"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24129_CERA_2023_2024_14062024164013.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_end": 2024,
+          "published_at": "2024-06-14T16:40:13+05:30",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=CERA",
+          "discovery_source_id": "19a43a63058440e1a8acc370544c894f"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_21999_CERA_2022_2023_09062023185514_06092023190001.zip",
+          "label": "Annual report FY 2022-23",
+          "period": "FY 2022-23",
+          "year_end": 2023,
+          "published_at": "",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=CERA",
+          "discovery_source_id": "19a43a63058440e1a8acc370544c894f"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/CERA_22102026170832_CERAQ2CALL221026s.pdf",
+          "label": "Cera Sanitaryware Limited has informed the Exchange about Q2 & H1 FY27 Earnings Conference Call",
+          "published_at": "2026-10-22T17:09:19+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=CERA&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "0b6478a0081d4180b0b23d720b5c2af5",
+          "state": "notice-not-transcript"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/CERA_12082026161310_CERAQ1FY27Transcript12082026s.pdf",
+          "label": "Cera Sanitaryware Limited has informed the Exchange about Transcript of the Q1 FY27 Earnings Conference Call held on 8th August, 2026",
+          "published_at": "2026-08-12T16:13:41+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=CERA&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "0b6478a0081d4180b0b23d720b5c2af5",
+          "state": "ready",
+          "document_id": "8b831e0091156806a92a2afc",
+          "error": null
+        }
+      ]
+    },
+    {
+      "ticker": "TITAN",
+      "status": "ready",
+      "job_id": "f1728ff04cdd4d8ea4479248cbf0b44f",
+      "seconds": 9.047,
+      "checked_at": "2026-10-30T12:13:41.763047+00:00",
+      "warnings": [],
+      "errors": [],
+      "documents": [
+        {
+          "id": "5c41b723f3cd4b330b6431c7",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-07-03",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 473,
+          "chunks": 891,
+          "sha256": "03c17c91e6e44c753de6828e83d23acaf0206a90e437987f8a5bffdef8b05dbd",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29549_TITAN_2025_2026_A_11906853_03072026125809.pdf",
+          "source_id": "9856e124121f41f4a1834c7afe0c2957",
+          "discovery_source_id": "c47fbe7b93f043cd94f8e567ecf6f5b4",
+          "retrieved": "2026-10-30T12:13:33.168177+00:00",
+          "indexed_pages": 468,
+          "extracted_pages": 473
+        },
+        {
+          "id": "1f9e652740fba027c18503f0",
+          "source_kind": "call",
+          "period": "Q1 FY2027",
+          "date": "2026-08-11",
+          "call_date": "2026-08-07",
+          "freshness": "dated",
+          "pageCount": 18,
+          "chunks": 32,
+          "sha256": "c92ef67191bbef4b3449af7e0d7317e6c3ace82fb3d5caa7742f6e6f253cc096",
+          "url": "https://nsearchives.nseindia.com/corporate/TITAN_11082026225424_SEanalystcalltranscriptQ1.pdf",
+          "source_id": "77a79c35bb464119b62935aa4f5b4b4f",
+          "discovery_source_id": "426d84b2b9064277b3d3a4d7b587dcec",
+          "retrieved": "2026-10-30T12:13:40.634805+00:00",
+          "indexed_pages": 17,
+          "extracted_pages": 18
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29549_TITAN_2025_2026_A_11906853_03072026125809.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-07-03T12:58:09+05:30",
+          "revision": "New",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=TITAN",
+          "discovery_source_id": "c47fbe7b93f043cd94f8e567ecf6f5b4",
+          "document_id": "5c41b723f3cd4b330b6431c7",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_26625_TITAN_2024_2025_A_27062025152121.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_end": 2025,
+          "published_at": "2025-06-27T15:21:21+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=TITAN",
+          "discovery_source_id": "c47fbe7b93f043cd94f8e567ecf6f5b4"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24142_TITAN_2023_2024_18062024113823.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_end": 2024,
+          "published_at": "2024-06-18T11:38:23+05:30",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=TITAN",
+          "discovery_source_id": "c47fbe7b93f043cd94f8e567ecf6f5b4"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_22219_TITAN_2022_2023_07072023130457_07072023140000.zip",
+          "label": "Annual report FY 2022-23",
+          "period": "FY 2022-23",
+          "year_end": 2023,
+          "published_at": "",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=TITAN",
+          "discovery_source_id": "c47fbe7b93f043cd94f8e567ecf6f5b4"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/TITAN_23102026195704_SEQ2FY27EarningCall.pdf",
+          "label": "Titan Company Limited has informed the Exchange about Earnings call for Q2 and half year ended FY 2026-27",
+          "published_at": "2026-10-23T19:58:53+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TITAN&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "426d84b2b9064277b3d3a4d7b587dcec",
+          "state": "notice-not-transcript"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/TITAN_11082026225424_SEanalystcalltranscriptQ1.pdf",
+          "label": "Titan Company Limited has informed the Exchange about Earnings Call Transcripts",
+          "published_at": "2026-08-11T22:55:17+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TITAN&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "426d84b2b9064277b3d3a4d7b587dcec",
+          "state": "ready",
+          "document_id": "1f9e652740fba027c18503f0",
+          "error": null
+        }
+      ]
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "status": "ready",
+      "job_id": "24f833aadb8f4675971fe585ba4b30e9",
+      "seconds": 14.851,
+      "checked_at": "2026-10-30T12:16:27.505735+00:00",
+      "warnings": [],
+      "errors": [],
+      "documents": [
+        {
+          "id": "b8739fb3b55b2caaae2dfea3",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-06-12",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 294,
+          "chunks": 1157,
+          "sha256": "b7977d2419ed2e211d0ad53270165cc4205cafff7982b6b74fed6502fa25aacb",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29385_ASIANPAINT_2025_2026_A_26278926_12062026160918.pdf",
+          "source_id": "6bb596d943b44356be039902c979dae1",
+          "discovery_source_id": "b9e1689087ff428f8f1bd778c258796e",
+          "retrieved": "2026-10-30T12:16:13.495050+00:00",
+          "indexed_pages": 293,
+          "extracted_pages": 294
+        },
+        {
+          "id": "d43efb9b09bd86b18a30efe2",
+          "source_kind": "call",
+          "period": "Q1 FY2027",
+          "date": "2026-08-03",
+          "call_date": "2026-07-29",
+          "freshness": "dated",
+          "pageCount": 26,
+          "chunks": 40,
+          "sha256": "579a8a98c6eb6bd9864e44c62469ba5f311e4cf7a6137ae42040f5a8fe17794c",
+          "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03082026144133_Regulation_30_Intimation_-_Transcript_for_Investor_Conference_Signed.pdf",
+          "source_id": "2425e94b499d4647bfa18d7aeb3f13a1",
+          "discovery_source_id": "fc6e7fa6a7224746954f7b7231584bf1",
+          "retrieved": "2026-10-30T12:16:26.138444+00:00",
+          "indexed_pages": 25,
+          "extracted_pages": 26
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29385_ASIANPAINT_2025_2026_A_26278926_12062026160918.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-06-12T16:09:18+05:30",
+          "revision": "New",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ASIANPAINT",
+          "discovery_source_id": "b9e1689087ff428f8f1bd778c258796e",
+          "document_id": "b8739fb3b55b2caaae2dfea3",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_26496_ASIANPAINT_2024_2025_A_03062025224818.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_end": 2025,
+          "published_at": "2025-06-03T22:48:18+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ASIANPAINT",
+          "discovery_source_id": "b9e1689087ff428f8f1bd778c258796e"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24066_ASIANPAINT_2023_2024_3105202418521.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_end": 2024,
+          "published_at": "",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ASIANPAINT",
+          "discovery_source_id": "b9e1689087ff428f8f1bd778c258796e"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_21962_ASIANPAINT_2022_2023_03062023000036_06032023070000.zip",
+          "label": "Annual report FY 2022-23",
+          "period": "FY 2022-23",
+          "year_end": 2023,
+          "published_at": "",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ASIANPAINT",
+          "discovery_source_id": "b9e1689087ff428f8f1bd778c258796e"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03082026144133_Regulation_30_Intimation_-_Transcript_for_Investor_Conference_Signed.pdf",
+          "label": "Please find enclosed the transcript of the Investor Conference held on Wednesday, 29th July 2026, with regard to the business and financial performance of the Company for the quarter ended 30th June 2026.",
+          "published_at": "2026-08-03T14:42:01+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ASIANPAINT&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "fc6e7fa6a7224746954f7b7231584bf1",
+          "state": "ready",
+          "document_id": "d43efb9b09bd86b18a30efe2",
+          "error": null
+        }
+      ]
+    },
+    {
+      "ticker": "ITC",
+      "status": "partial",
+      "job_id": "f95dfd6f5f754334a73bcd6581c6c4ec",
+      "seconds": 16.814,
+      "checked_at": "2026-10-30T12:16:44.372977+00:00",
+      "warnings": [
+        "No usable actual earnings call found within bounded discovery. This is a discovery/availability gap, not evidence that none exists."
+      ],
+      "errors": [],
+      "documents": [
+        {
+          "id": "8775b1749558c575d97d177a",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-06-26",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 416,
+          "chunks": 1008,
+          "sha256": "f807cf9c18f670f59fca3f275de3e71277090df0223fe26d5d2cccc25d8f31e0",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29459_ITC_2025_2026_A_14678177_26062026165422.pdf",
+          "source_id": "ef08bb91c1da4154b07c305e1fc2aa4c",
+          "discovery_source_id": "ceff4d0a799647dfa56995edb629e765",
+          "retrieved": "2026-10-30T12:16:28.161558+00:00",
+          "indexed_pages": 414,
+          "extracted_pages": 416
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_29459_ITC_2025_2026_A_14678177_26062026165422.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_end": 2026,
+          "published_at": "2026-06-26T16:54:22+05:30",
+          "revision": "New",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ITC",
+          "discovery_source_id": "ceff4d0a799647dfa56995edb629e765",
+          "document_id": "8775b1749558c575d97d177a",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_26624_ITC_2024_2025_A_27062025150548.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_end": 2025,
+          "published_at": "2025-06-27T15:05:48+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ITC",
+          "discovery_source_id": "ceff4d0a799647dfa56995edb629e765"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24214_ITC_2023_2024_28062024112224.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_end": 2024,
+          "published_at": "2024-06-28T11:22:24+05:30",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ITC",
+          "discovery_source_id": "ceff4d0a799647dfa56995edb629e765"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_22277_ITC_2022_2023_11072023111027_07112023120000.zip",
+          "label": "Annual report FY 2022-23",
+          "period": "FY 2022-23",
+          "year_end": 2023,
+          "published_at": "",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=ITC",
+          "discovery_source_id": "ceff4d0a799647dfa56995edb629e765"
+        }
+      ]
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "status": "partial",
+      "job_id": "b4fdaf543c9f43d0a4e5b4f5bd13de8f",
+      "seconds": 65.229,
+      "checked_at": "2026-10-30T12:24:01.977092+00:00",
+      "warnings": [
+        "A newer/revised annual candidate failed. The selected earlier submission is a fallback; inspect candidate history.",
+        "No usable actual earnings call found within bounded discovery. This is a discovery/availability gap, not evidence that none exists."
+      ],
+      "errors": [
+        "Issuer fallback: HTTP 403 [request 7c0d414b3a1846b39e945bfd1ae76514]"
+      ],
+      "documents": [
+        {
+          "id": "87f53614987b1578565a85f5",
+          "source_kind": "annual",
+          "period": "FY 2025-26",
+          "date": "2026-08-01",
+          "call_date": null,
+          "freshness": "dated",
+          "pageCount": 301,
+          "chunks": 971,
+          "sha256": "3a0accbe0987bdb0ec001f6660cb583fe3404862971945a6ae03b673587e286f",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_30122_APOLLOHOSP_2025_2026_A_16882027_01082026125310.pdf",
+          "source_id": "640977ba09e04f91994b4831f564f47d",
+          "discovery_source_id": "550106acdb14484182a4b54c004e4cc3",
+          "retrieved": "2026-10-30T12:23:42.429590+00:00",
+          "indexed_pages": 297,
+          "extracted_pages": 301
+        }
+      ],
+      "candidates": [
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_30779_APOLLOHOSP_2025_2026_U_16736806_28082026154612.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_start": 2025,
+          "year_end": 2026,
+          "published_at": "2026-08-28T15:46:12+05:30",
+          "revision": "Revised",
+          "state": "failed",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=APOLLOHOSP",
+          "discovery_source_id": "550106acdb14484182a4b54c004e4cc3",
+          "document_id": "d68bf31c7c6eb7732e8f9714",
+          "error": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond> [request ab99d133222e40c9a7b8b5c2e49ba3c8]"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_30122_APOLLOHOSP_2025_2026_A_16882027_01082026125310.pdf",
+          "label": "Annual report FY 2025-26",
+          "period": "FY 2025-26",
+          "year_start": 2025,
+          "year_end": 2026,
+          "published_at": "2026-08-01T12:53:10+05:30",
+          "revision": "New",
+          "state": "ready",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=APOLLOHOSP",
+          "discovery_source_id": "550106acdb14484182a4b54c004e4cc3",
+          "document_id": "87f53614987b1578565a85f5",
+          "error": null
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_27311_APOLLOHOSP_2024_2025_A_06082025194352.pdf",
+          "label": "Annual report FY 2024-25",
+          "period": "FY 2024-25",
+          "year_start": 2024,
+          "year_end": 2025,
+          "published_at": "2025-08-06T19:43:52+05:30",
+          "revision": "New",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=APOLLOHOSP",
+          "discovery_source_id": "550106acdb14484182a4b54c004e4cc3"
+        },
+        {
+          "kind": "annual",
+          "url": "https://nsearchives.nseindia.com/annual_reports/AR_24870_APOLLOHOSP_2023_2024_08082024153312.pdf",
+          "label": "Annual report FY 2023-24",
+          "period": "FY 2023-24",
+          "year_start": 2023,
+          "year_end": 2024,
+          "published_at": "2024-08-08T15:33:12+05:30",
+          "revision": "-",
+          "state": "discovered",
+          "discovered_from": "https://www.nseindia.com/api/annual-reports?index=equities&symbol=APOLLOHOSP",
+          "discovery_source_id": "550106acdb14484182a4b54c004e4cc3"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_19082026180025_transcript_Q1FY27.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2026-08-19T18:00:36+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=02-08-2026&to_date=30-10-2026",
+          "discovery_source_id": "e1210fa4cb974bb8a7051bffb5689f8b",
+          "state": "cover-letter",
+          "document_id": "055b29047381b2887e6325a4",
+          "error": "No actual earnings-call dialogue verified; notice, press conference or cover letter is not a transcript"
+        },
+        {
+          "kind": "call",
+          "url": "https://www.apollohospitals.com/sites/default/files/2026-08/transcript-of-apollo-hospitals---q1-fy27-earnings-call.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2026-08-19T18:00:36+05:30",
+          "discovered_from": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_19082026180025_transcript_Q1FY27.pdf",
+          "discovery_source_id": "415f70db189140fabcf76e73c9fa08c2",
+          "state": "blocked",
+          "document_id": "a0c54e29a8320460892f16c2",
+          "error": "HTTP 403 [request b1b8394b808049aca6c0f512704d8304]"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_25052026152431_SE_transcript.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2026-05-25T15:24:40+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=04-05-2026&to_date=01-08-2026",
+          "discovery_source_id": "753d27008ee74832b8a45457f210b6e2",
+          "state": "cover-letter",
+          "document_id": "f117a08d8d735d5cdf51f40a",
+          "error": "No actual earnings-call dialogue verified; notice, press conference or cover letter is not a transcript"
+        },
+        {
+          "kind": "call",
+          "url": "https://www.apollohospitals.com/sites/default/files/2026-05/transcript-of-apollo-hospitals---q4-fy26-earnings-call.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2026-05-25T15:24:40+05:30",
+          "discovered_from": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_25052026152431_SE_transcript.pdf",
+          "discovery_source_id": "ea721cbf0a434b71a717daeb7b0b8d02",
+          "state": "blocked",
+          "document_id": "9f0ac95e7039425c672af7f8",
+          "error": "HTTP 403 [request e886dc8a68574d96829b168cd51346d2]"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_14022026122319_transcript_let_Dec2025.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2026-02-14T12:24:42+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=03-02-2026&to_date=03-05-2026",
+          "discovery_source_id": "370eec4c900844acb854590b6ec9f6c4",
+          "state": "cover-letter",
+          "document_id": "cdffe2a242bd273498e3be62",
+          "error": "No actual earnings-call dialogue verified; notice, press conference or cover letter is not a transcript"
+        },
+        {
+          "kind": "call",
+          "url": "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_11112025112449_SE_let_transcript.pdf",
+          "label": "Apollo Hospitals Enterprise Limited has informed the Exchange about Transcript",
+          "published_at": "2025-11-11T11:25:05+05:30",
+          "discovered_from": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=05-11-2025&to_date=02-02-2026",
+          "discovery_source_id": "de08cb07754b402bb7d0dd4675f577ae",
+          "state": "cover-letter",
+          "document_id": "c6e12d134fb23e652d4ba249",
+          "error": "No actual earnings-call dialogue verified; notice, press conference or cover letter is not a transcript"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check": "Retrieval remains separate from synthesis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Push remains 15 companies and 61 stored filings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fresh test symbols have no issuer/PDF configuration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual AND actual call INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes e80016409935ad6778f1c19b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance e80016409935ad6778f1c19b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity e80016409935ad6778f1c19b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match e80016409935ad6778f1c19b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 3e7c4e2a2b30f514af1a69bb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 3e7c4e2a2b30f514af1a69bb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 3e7c4e2a2b30f514af1a69bb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for INFY / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-24-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-356-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-133-1553",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-29-1504",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-48-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-27-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for INFY / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-217-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-295-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-e80016409935ad6778f1c19b-39-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-25-1565",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-28-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-3e7c4e2a2b30f514af1a69bb-27-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual AND actual call CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes c0639e4915bd26cb67a93f6b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance c0639e4915bd26cb67a93f6b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity c0639e4915bd26cb67a93f6b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match c0639e4915bd26cb67a93f6b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 8b831e0091156806a92a2afc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 8b831e0091156806a92a2afc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 8b831e0091156806a92a2afc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for CERA / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-66-1554",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-133-1592",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-33-1579",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-4-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-6-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-2-1562",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for CERA / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-152-1579",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-16-1574",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-c0639e4915bd26cb67a93f6b-153-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-5-1574",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-4-3170",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8b831e0091156806a92a2afc-3-3074",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity TITAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages TITAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual AND actual call TITAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 5c41b723f3cd4b330b6431c7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 5c41b723f3cd4b330b6431c7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 5c41b723f3cd4b330b6431c7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match 5c41b723f3cd4b330b6431c7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 1f9e652740fba027c18503f0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 1f9e652740fba027c18503f0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 1f9e652740fba027c18503f0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for TITAN / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-157-1550",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-161-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-54-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-5-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-17-1511",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-16-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for TITAN / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-287-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-378-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-5c41b723f3cd4b330b6431c7-305-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-6-1594",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-5-1596",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-1f9e652740fba027c18503f0-3-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load TITAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity ASIANPAINT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages ASIANPAINT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual AND actual call ASIANPAINT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes b8739fb3b55b2caaae2dfea3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance b8739fb3b55b2caaae2dfea3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity b8739fb3b55b2caaae2dfea3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match b8739fb3b55b2caaae2dfea3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes d43efb9b09bd86b18a30efe2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance d43efb9b09bd86b18a30efe2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity d43efb9b09bd86b18a30efe2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for ASIANPAINT / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-13-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-32-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-18-4739",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-d43efb9b09bd86b18a30efe2-9-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-d43efb9b09bd86b18a30efe2-8-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-d43efb9b09bd86b18a30efe2-19-1532",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for ASIANPAINT / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-186-4771",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-236-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-b8739fb3b55b2caaae2dfea3-110-4620",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-d43efb9b09bd86b18a30efe2-9-1521",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-d43efb9b09bd86b18a30efe2-24-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load ASIANPAINT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity ITC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages ITC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Honest partial coverage ITC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 8775b1749558c575d97d177a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 8775b1749558c575d97d177a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 8775b1749558c575d97d177a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match 8775b1749558c575d97d177a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for ITC / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-96-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-66-1545",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-19-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for ITC / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-162-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-258-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-8775b1749558c575d97d177a-231-2989",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load ITC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Validated NSE identity APOLLOHOSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Annual report beyond 60 pages APOLLOHOSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Honest partial coverage APOLLOHOSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Immutable PDF bytes 87f53614987b1578565a85f5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source provenance 87f53614987b1578565a85f5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF company identity 87f53614987b1578565a85f5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Financial-year match 87f53614987b1578565a85f5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for APOLLOHOSP / What are the business segments and management outlook?",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-101-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-109-3112",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-103-1561",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real passages for APOLLOHOSP / operating cash flow receivables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-184-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-126-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves r-87f53614987b1578565a85f5-190-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP cached load APOLLOHOSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "INFY mixed bundle call starts at physical page 24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Newer notice not substituted CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Newer notice not substituted TITAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Apollo cover letter and actual issuer block retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Apollo revision fallback caveat retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Warm HTTP question request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Warm HTTP question request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Warm HTTP question request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Warm HTTP question request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Warm HTTP question request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unanswerable question returns no invented passages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown source/citation route /api/documents/not-real",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown source/citation route /files/not-real.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown source/citation route /api/research/jobs/not-real",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown source/citation route /api/citations/not-real",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Question API rejects missing token",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "URL input rejected before discovery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown ticker has explicit invalid/unestablished identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cache/question/invalid checks made zero upstream requests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Manual demo remains separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual research snapshot rebuilds derived index with same citations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery does not pretend raw PDFs are bundled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery preserves document retrieval time",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

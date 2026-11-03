@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-10-31T03:33:54.108031+00:00",
+  "base": "https://finn-enam-holdings.onrender.com",
+  "phase": "answer",
+  "model_available": true,
+  "finished_at": "2026-10-31T03:34:05.203885+00:00",
+  "checks": [
+    {
+      "check": "Hosted health",
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "mode": "real-source push and cited company research",
+        "model_enabled": true
+      }
+    },
+    {
+      "check": "15 companies remain readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery provenance visible",
+      "passed": true,
+      "detail": {
+        "restored_at": "2026-10-31T03:29:17.242768+00:00",
+        "snapshot_exported_at": "2026-10-30T21:46:55.429570+00:00",
+        "note": "Restored dated source metadata/text. Raw response/PDF files are not bundled. New retrieval timestamps change only after real requests."
+      }
+    },
+    {
+      "check": "Free-host storage declared ephemeral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Private answer/audit tables absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real hosted cited answer",
+      "passed": true,
+      "detail": {
+        "status": "ready",
+        "content": {
+          "status": "answered",
+          "claims": [
+            {
+              "text": "Management reported that Q2 revenue growth was at 1.5% YoY and 1.2% sequentially in constant currency terms.",
+              "citations": [
+                {
+                  "evidence_id": "page-3e7c4e2a2b30f514af1a69bb-25-0-2206",
+                  "quote": "Our revenue growth for Q2 was at 1.5% YoY and 1.2% sequentially in constant currency terms."
+                }
+              ]
+            }
+          ],
+          "gaps": [],
+          "follow_up_questions": [
+            "What was the constant-currency revenue growth guidance for the rest of the year?"
+          ]
+        },
+        "cached": false,
+        "model_called": true,
+        "model": "gemini-3.5-flash-lite",
+        "generated_at": "2026-10-31T03:34:03.951958+00:00",
+        "prompt_version": "grounded-v5",
+        "source_versions": [
+          [
+            "3e7c4e2a2b30f514af1a69bb",
+            "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+            2
+          ],
+          [
+            "e80016409935ad6778f1c19b",
+            "4fc4a071157f446bfc96f71763159122059c9881870e245cb9383069906bf3e8",
+            2
+          ]
+        ],
+        "seconds": 3.297,
+        "usage": {
+          "promptTokenCount": 6957,
+          "candidatesTokenCount": 188,
+          "totalTokenCount": 7145
+        },
+        "model_version": "gemini-3.5-flash-lite"
+      }
+    },
+    {
+      "check": "Answer quotes occur in returned source pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Hosted repeat uses cache",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "verification_transport": {
+    "hostname": "finn-enam-holdings.onrender.com",
+    "selected_dns_a": "216.24.57.18",
+    "tls_hostname_verification": true,
+    "reason": "Default connection timed out before /health. This address was returned by DNS and passed health with the original HTTPS hostname; no model/provider fallback."
+  },
+  "prior_connection_attempts": [
+    "Python default DNS connection timed out at /health before any answer call.",
+    "curl default connection timed out after 15 seconds. Alternate returned DNS A address succeeded."
+  ]
+}

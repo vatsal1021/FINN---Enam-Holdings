@@ -1,0 +1,6 @@
+{
+  "INFY": {"name":"Infosys", "sector":"IT services", "sample_role":"initial", "discovery_pages":["https://www.infosys.com/investors/reports-filings/annual-report/", "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2.html"]},
+  "KPRMILL": {"name":"KPR Mill", "sector":"Textiles", "sample_role":"initial", "discovery_pages":["https://www.kprmilllimited.com/financial-result", "https://www.kprmilllimited.com/financial-result-con-col-invitation-and-transcript"]},
+  "CERA": {"name":"Cera Sanitaryware", "sector":"Building products", "sample_role":"initial", "discovery_pages":["https://www.cera-india.com/investor-relations/financial-information", "https://www.cera-india.com/investor-relations/events", "https://www.cera-india.com/investor-relations/shareholder-and-agm-information"]},
+  "APOLLOHOSP": {"name":"Apollo Hospitals Enterprise", "sector":"Healthcare", "sample_role":"holdout", "discovery_pages":["https://www.apollohospitals.com/investor-relations"]}
+}

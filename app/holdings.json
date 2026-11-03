@@ -1,0 +1,77 @@
+[
+  {
+    "ticker": "INFY",
+    "name": "Infosys",
+    "sector": "IT services"
+  },
+  {
+    "ticker": "RELIANCE",
+    "name": "Reliance Industries",
+    "sector": "Energy, retail & digital"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "name": "HDFC Bank",
+    "sector": "Banking"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "name": "Bharti Airtel",
+    "sector": "Telecom"
+  },
+  {
+    "ticker": "LT",
+    "name": "Larsen & Toubro",
+    "sector": "Engineering & construction"
+  },
+  {
+    "ticker": "MARUTI",
+    "name": "Maruti Suzuki",
+    "sector": "Automobiles"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "name": "Sun Pharmaceutical",
+    "sector": "Pharmaceuticals"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "name": "Hindustan Unilever",
+    "sector": "Consumer staples"
+  },
+  {
+    "ticker": "NTPC",
+    "name": "NTPC",
+    "sector": "Power"
+  },
+  {
+    "ticker": "TATASTEEL",
+    "name": "Tata Steel",
+    "sector": "Metals"
+  },
+  {
+    "ticker": "APOLLOHOSP",
+    "name": "Apollo Hospitals",
+    "sector": "Healthcare"
+  },
+  {
+    "ticker": "KPRMILL",
+    "name": "KPR Mill",
+    "sector": "Textiles"
+  },
+  {
+    "ticker": "CERA",
+    "name": "Cera Sanitaryware",
+    "sector": "Building products"
+  },
+  {
+    "ticker": "PERSISTENT",
+    "name": "Persistent Systems",
+    "sector": "IT services"
+  },
+  {
+    "ticker": "ELGIEQUIP",
+    "name": "Elgi Equipments",
+    "sector": "Industrial equipment"
+  }
+]

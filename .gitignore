@@ -1,0 +1,11 @@
+tmp/
+runtime/
+experiments/samples/
+**/__pycache__/
+*.py[cod]
+*.sqlite*
+.env
+.env.*
+!.env.example
+/*.pdf
+app/verification/runtime-*/

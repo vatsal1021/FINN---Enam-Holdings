@@ -1,0 +1,92 @@
+{
+  "checkedAtUTC": "2026-10-30T11:50:11.458Z",
+  "scope": "Saved real full-portfolio data; no repeated NSE portfolio refresh; author-operated in-app Chromium checks",
+  "confirmedViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    {
+      "check": "Full live portfolio digest",
+      "observed": {
+        "attention": 13,
+        "height": 844,
+        "other": 48,
+        "pageWidth": 375,
+        "plannedTitles": [
+          "Financial results filed",
+          "New transcript filed",
+          "Financial results filed",
+          "Listing or capital plans to review",
+          "Listing or capital plans to review",
+          "Financial results filed",
+          "Financial results filed",
+          "Financial results filed",
+          "Corporate development to review",
+          "New transcript filed",
+          "New transcript filed",
+          "Leadership or auditor change",
+          "Financial results filed"
+        ],
+        "summary": "13items for review48other filings15 / 15price/feed checks passed",
+        "width": 390
+      },
+      "result": "PASS: 61 fetched filings; 15/15 price/feed checks; scheduled capital notices no longer labelled delivered results"
+    },
+    {
+      "check": "Company/category filtering",
+      "result": "PASS: INFY other/routine view shows eight filings and zero attention cards"
+    },
+    {
+      "check": "Mobile source reader",
+      "result": "PASS at 390×844: original extracted PDF page 25/48, actual call text, original and full-PDF links, no horizontal overflow"
+    },
+    {
+      "check": "Full live source/return journey",
+      "expectedScroll": 751.2,
+      "observed": {
+        "category": "true",
+        "company": "INFY",
+        "focus": "Review evidence ↗",
+        "open": false,
+        "period": "window",
+        "scroll": 751.2000122070312
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "All fifteen real quotes and sorting",
+      "result": "PASS: 15 dated prices rendered; descending day-move order inspected",
+      "descending": [
+        "Hindustan Unilever",
+        "NTPC",
+        "Infosys",
+        "Bharti Airtel",
+        "Larsen & Toubro",
+        "Reliance Industries",
+        "Apollo Hospitals",
+        "Persistent Systems",
+        "Sun Pharmaceutical",
+        "Tata Steel",
+        "Cera Sanitaryware",
+        "HDFC Bank",
+        "Elgi Equipments",
+        "KPR Mill",
+        "Maruti Suzuki"
+      ]
+    },
+    {
+      "check": "Live search and company return",
+      "result": "PASS: TATASTEEL search returns one real quote and zero returned filings; AI unavailable; Back retains search and descending sort"
+    },
+    {
+      "check": "Empty date view",
+      "result": "PASS: INFY last-24-hours view contains no stored filings, clearly distinguished from a source failure; full window restores two review/eight other records"
+    }
+  ],
+  "limits": [
+    "No physical-phone or additional-breakpoint test",
+    "Original PDF rendered in desktop browser viewer; extracted reader also checked at phone width",
+    "Not a materiality/factuality benchmark or hosted-runtime test"
+  ]
+}

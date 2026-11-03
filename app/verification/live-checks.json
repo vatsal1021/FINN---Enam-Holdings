@@ -1,0 +1,1255 @@
+{
+  "checked_at": "2026-10-30T21:47:03.213716+00:00",
+  "scope": "Saved real dataset + local HTTP; no portfolio refresh or chargeable model calls. Lease fault/recovery checks are local, not hosted.",
+  "passed": 152,
+  "total": 152,
+  "job": {
+    "id": "cf13e8526f3e4da0bff3460497a4af3e",
+    "status": "complete",
+    "started_at": "2026-10-30T09:10:41.147512+00:00",
+    "expires_at": "2026-10-30T09:16:41.147512+00:00",
+    "tickers": [
+      "APOLLOHOSP",
+      "BHARTIARTL",
+      "CERA",
+      "ELGIEQUIP",
+      "HDFCBANK",
+      "HINDUNILVR",
+      "INFY",
+      "KPRMILL",
+      "LT",
+      "MARUTI",
+      "NTPC",
+      "PERSISTENT",
+      "RELIANCE",
+      "SUNPHARMA",
+      "TATASTEEL"
+    ],
+    "start": "2026-10-23",
+    "end": "2026-10-30",
+    "requested_eod": "2026-10-29",
+    "completed": 15,
+    "errors": [],
+    "finished_at": "2026-10-30T09:11:02.404727+00:00",
+    "eod_date": "2026-10-29",
+    "elapsed_seconds": 21.234,
+    "companies_passed": 15,
+    "companies_failed": 0,
+    "inserted": 51,
+    "updated": 10,
+    "document_results": [
+      {
+        "event_id": "nse-SUNPHARMA-106836275",
+        "status": "failed",
+        "error": "SourceError: Encrypted or empty PDF"
+      },
+      {
+        "event_id": "nse-INFY-106832593",
+        "status": "ready",
+        "error": null
+      }
+    ]
+  },
+  "companies": [
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:APOLLOHOSP",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "APOLLOHOSP",
+      "started_at": "2026-10-30T09:10:42.256710+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 0,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=APOLLOHOSP&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "3ea91d3f931b4b869a2f8f9fac5b4a77",
+      "finished_at": "2026-10-30T09:10:43.060713+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:BHARTIARTL",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "BHARTIARTL",
+      "started_at": "2026-10-30T09:10:43.233849+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 3,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=BHARTIARTL&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "6e1a348afb3843849f770d258a5929e9",
+      "finished_at": "2026-10-30T09:10:44.221966+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:CERA",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "CERA",
+      "started_at": "2026-10-30T09:10:44.394552+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 0,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=CERA&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "d5363eab6ba24f8ca5a2520ebb30979b",
+      "finished_at": "2026-10-30T09:10:45.284341+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:ELGIEQUIP",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "ELGIEQUIP",
+      "started_at": "2026-10-30T09:10:45.457480+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 2,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ELGIEQUIP&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "8786a06a68a54982b0de4a60da12c1e2",
+      "finished_at": "2026-10-30T09:10:46.378319+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:HDFCBANK",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "HDFCBANK",
+      "started_at": "2026-10-30T09:10:46.551390+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 4,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HDFCBANK&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "e441cf99d10e49e49d276039785d397a",
+      "finished_at": "2026-10-30T09:10:47.443711+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:HINDUNILVR",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "HINDUNILVR",
+      "started_at": "2026-10-30T09:10:47.619067+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 7,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HINDUNILVR&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "d53045d346bd4fb7a2ab19281f9dba9c",
+      "finished_at": "2026-10-30T09:10:48.588077+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:INFY",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "INFY",
+      "started_at": "2026-10-30T09:10:48.759834+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 10,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "3803ecfa0a964c6db9a66f8b7ee1d6e4",
+      "finished_at": "2026-10-30T09:10:49.784608+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:KPRMILL",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "KPRMILL",
+      "started_at": "2026-10-30T09:10:49.957403+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 5,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=KPRMILL&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "bf9bb712a8eb440eaa54d65a559f3c24",
+      "finished_at": "2026-10-30T09:10:50.923679+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:LT",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "LT",
+      "started_at": "2026-10-30T09:10:51.096777+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 6,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=LT&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "6eeade358b814d7bb890cce324918e06",
+      "finished_at": "2026-10-30T09:10:52.291504+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:MARUTI",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "MARUTI",
+      "started_at": "2026-10-30T09:10:52.465370+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 8,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=MARUTI&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "772a2a8d2d6740eebd44c6b97f636984",
+      "finished_at": "2026-10-30T09:10:53.393644+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:NTPC",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "NTPC",
+      "started_at": "2026-10-30T09:10:53.569267+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 4,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=NTPC&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "c41556fed975465290dcf9973d48fc3f",
+      "finished_at": "2026-10-30T09:10:54.441593+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:PERSISTENT",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "PERSISTENT",
+      "started_at": "2026-10-30T09:10:54.615164+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 4,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=PERSISTENT&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "f6ffdd8945634c52b446b963eed3fcd5",
+      "finished_at": "2026-10-30T09:10:55.507571+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:RELIANCE",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "RELIANCE",
+      "started_at": "2026-10-30T09:10:55.680970+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 4,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "0d9944e8d3fd46ef8f1ce128fd83c4e3",
+      "finished_at": "2026-10-30T09:10:56.586674+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:SUNPHARMA",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "SUNPHARMA",
+      "started_at": "2026-10-30T09:10:56.759449+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 4,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=SUNPHARMA&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "aa242efa5c3a4adfab15ddf47e6ec934",
+      "finished_at": "2026-10-30T09:10:57.973933+00:00"
+    },
+    {
+      "id": "cf13e8526f3e4da0bff3460497a4af3e:TATASTEEL",
+      "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+      "ticker": "TATASTEEL",
+      "started_at": "2026-10-30T09:10:58.148143+00:00",
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "eod_status": "passed",
+      "filings_status": "passed",
+      "filing_count": 0,
+      "eod_error": null,
+      "filings_error": null,
+      "eod_request_id": "14d06d615a5d48a597fff28b72d43479",
+      "announcements_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TATASTEEL&from_date=23-10-2026&to_date=30-10-2026",
+      "eod_date": "2026-10-29",
+      "announcements_request_id": "dfe9663e8950454786e0551191bfd32c",
+      "finished_at": "2026-10-30T09:10:59.146133+00:00"
+    }
+  ],
+  "quotes": [
+    {
+      "ticker": "INFY",
+      "date": "2026-10-29",
+      "close_exact": "1146.50",
+      "previous_exact": "1123.15",
+      "volume": 14048472,
+      "change_pct": 2.0789743133152294,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "APOLLOHOSP",
+      "date": "2026-10-29",
+      "close_exact": "8200.00",
+      "previous_exact": "8137.00",
+      "volume": 583531,
+      "change_pct": 0.7742411208061939,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "date": "2026-10-29",
+      "close_exact": "1972.10",
+      "previous_exact": "1948.10",
+      "volume": 6859219,
+      "change_pct": 1.2319696114162517,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "CERA",
+      "date": "2026-10-29",
+      "close_exact": "4439.00",
+      "previous_exact": "4449.00",
+      "volume": 15684,
+      "change_pct": -0.22476961114857272,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "ELGIEQUIP",
+      "date": "2026-10-29",
+      "close_exact": "511.25",
+      "previous_exact": "513.70",
+      "volume": 323708,
+      "change_pct": -0.4769320615145026,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "date": "2026-10-29",
+      "close_exact": "683.30",
+      "previous_exact": "685.30",
+      "volume": 31422790,
+      "change_pct": -0.29184298847220197,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "date": "2026-10-29",
+      "close_exact": "1858.20",
+      "previous_exact": "1815.80",
+      "volume": 2653805,
+      "change_pct": 2.335058927194625,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "KPRMILL",
+      "date": "2026-10-29",
+      "close_exact": "1082.70",
+      "previous_exact": "1091.50",
+      "volume": 441531,
+      "change_pct": -0.8062299587723316,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "LT",
+      "date": "2026-10-29",
+      "close_exact": "3837.10",
+      "previous_exact": "3801.30",
+      "volume": 1754505,
+      "change_pct": 0.941783074211454,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "MARUTI",
+      "date": "2026-10-29",
+      "close_exact": "11426.00",
+      "previous_exact": "11579.00",
+      "volume": 317248,
+      "change_pct": -1.32135763019259,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "NTPC",
+      "date": "2026-10-29",
+      "close_exact": "310.50",
+      "previous_exact": "303.75",
+      "volume": 7682889,
+      "change_pct": 2.2222222222222223,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "PERSISTENT",
+      "date": "2026-10-29",
+      "close_exact": "5880.00",
+      "previous_exact": "5848.00",
+      "volume": 450167,
+      "change_pct": 0.5471956224350205,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "RELIANCE",
+      "date": "2026-10-29",
+      "close_exact": "1167.40",
+      "previous_exact": "1158.00",
+      "volume": 20939623,
+      "change_pct": 0.8117443868739206,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "date": "2026-10-29",
+      "close_exact": "1761.00",
+      "previous_exact": "1757.50",
+      "volume": 1107854,
+      "change_pct": 0.19914651493598862,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    },
+    {
+      "ticker": "TATASTEEL",
+      "date": "2026-10-29",
+      "close_exact": "169.46",
+      "previous_exact": "169.27",
+      "volume": 13728789,
+      "change_pct": 0.11224670644532404,
+      "source_id": "14d06d615a5d48a597fff28b72d43479",
+      "retrieved_at": "2026-10-30T09:10:41.171219+00:00"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Saved full-portfolio job complete",
+      "passed": true,
+      "detail": "cf13e8526f3e4da0bff3460497a4af3e"
+    },
+    {
+      "check": "All fifteen outcomes accounted for",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation APOLLOHOSP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation BHARTIARTL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation CERA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation ELGIEQUIP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation HDFCBANK",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation HINDUNILVR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation KPRMILL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation LT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation MARUTI",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation NTPC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation PERSISTENT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation RELIANCE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation SUNPHARMA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Official EOD reconciliation TATASTEEL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash cb2ad56112674aa984a44542632a3466",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 517d76ba04924840b50308915474c460",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash a7d5cd5f80a84adc8a2b15ac8d7f6edc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash d33495314e14490bbf63382c885d8097",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash eb349a6e2f5142dfbc836c11df979cec",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 1280319c685944dea9bf5f949f4f1783",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 14d06d615a5d48a597fff28b72d43479",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 3ea91d3f931b4b869a2f8f9fac5b4a77",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6e1a348afb3843849f770d258a5929e9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash d5363eab6ba24f8ca5a2520ebb30979b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 8786a06a68a54982b0de4a60da12c1e2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash e441cf99d10e49e49d276039785d397a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash d53045d346bd4fb7a2ab19281f9dba9c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 3803ecfa0a964c6db9a66f8b7ee1d6e4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash bf9bb712a8eb440eaa54d65a559f3c24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6eeade358b814d7bb890cce324918e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 772a2a8d2d6740eebd44c6b97f636984",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash c41556fed975465290dcf9973d48fc3f",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash f6ffdd8945634c52b446b963eed3fcd5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0d9944e8d3fd46ef8f1ce128fd83c4e3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash aa242efa5c3a4adfab15ddf47e6ec934",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash dfe9663e8950454786e0551191bfd32c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 3939e50a426b43e7b6f3cde732b3bcac",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 01427395e8ee41ea8290237caa7455ae",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 868a9d16ca14400baf0b51514480a613",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 56e39a1ec7684ef7a6bcb83ec5063adb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 5d578a58188442089762dcbd2aba335a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 5dcc05c9c14c4a2eba62dd9205a19f62",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0e1b89eb5ade4fca88c68adbfcdd50cc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash afd1ef66e17c4c13818bc485be7e6a47",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 07c86f8275b345bbb69918acf75993a5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash cffd268bfe94481190ccc8bfc95dc3f4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 54a9ad83e0f140c1902cc3e0b3feb9c2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 7b6006861cbf49029a2ae48c9685c3dc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0fd6e91cd7bc4154a4926f65c6b68ea1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 19a43a63058440e1a8acc370544c894f",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 5a864be3717d4a9494d0efd5d254d404",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0b6478a0081d4180b0b23d720b5c2af5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6a571d1209b340b8b2169c1b38cb469c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash c47fbe7b93f043cd94f8e567ecf6f5b4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 9856e124121f41f4a1834c7afe0c2957",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 426d84b2b9064277b3d3a4d7b587dcec",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 77a79c35bb464119b62935aa4f5b4b4f",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 48bff375509c4b50bbc83efdca796e9d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 78fb65e903904240b261b718547744aa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash d3cc99281a904ff1a5c595b436b1a320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash c47eb4ee21644caa8ad3e987f3cc5842",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 49348c39e78f4144bd75459623079b98",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 2084468980874934a21235ef646695a1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 32d9082c0cd943849050c3eb8d44daeb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 38eba05af3d34aebb25a08ed3da00e16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 84c6096966a34bdbb413d56ccc4b8d22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 7ce8725a10ce4018b59bcd662261a6f5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash b9e1689087ff428f8f1bd778c258796e",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6bb596d943b44356be039902c979dae1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash fc6e7fa6a7224746954f7b7231584bf1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 2425e94b499d4647bfa18d7aeb3f13a1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash ceff4d0a799647dfa56995edb629e765",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash ef08bb91c1da4154b07c305e1fc2aa4c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 51e0132f770e407cac5912e88b625cde",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6812cfceb1af4b2b8d446a52b91812bd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash a94c0dbc4e0243c2826eb619cdadae26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash aa844e43d5d64c76a8e2cbb3c85fec50",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0ac0f70cf05849138f30997dadfd6950",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 422ab6d8b3c44159a7d13133a5340c8b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6a45aa682088405e9ffe9bdf37070ffb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 4e7144c18b1d4e559d6892f10b700fc2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash fe691355e6f640b8b9bdf74047466fe9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 6d5fe7bc4629453099cd9e9e96abe786",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 9de885c590ce43d48c5cbe2bdd968f57",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 354fef786d624d0994f1e595998b0b9d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash a65cca15468f4fbaaa2445ab7306edb7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 83447c30434a4f4792b9f40436d309c5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 3d5392cb9b34471287b40446338abe0a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash aa5a9154bb974418ad796bcce489677b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 550106acdb14484182a4b54c004e4cc3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash ab99d133222e40c9a7b8b5c2e49ba3c8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 640977ba09e04f91994b4831f564f47d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash e1210fa4cb974bb8a7051bffb5689f8b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 415f70db189140fabcf76e73c9fa08c2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash b1b8394b808049aca6c0f512704d8304",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 753d27008ee74832b8a45457f210b6e2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash ea721cbf0a434b71a717daeb7b0b8d02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash e886dc8a68574d96829b168cd51346d2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 370eec4c900844acb854590b6ec9f6c4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash f483cb0c40e34ee68967fb4610ced46b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash de08cb07754b402bb7d0dd4675f577ae",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 0ee88acef162458e8c1252c4e271f5f8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Response hash 7c0d414b3a1846b39e945bfd1ae76514",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Stored filings have unique exchange IDs",
+      "passed": true,
+      "detail": 61
+    },
+    {
+      "check": "Returned filing count APOLLOHOSP",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Returned filing count BHARTIARTL",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "check": "Returned filing count CERA",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Returned filing count ELGIEQUIP",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "check": "Returned filing count HDFCBANK",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "Returned filing count HINDUNILVR",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "check": "Returned filing count INFY",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "check": "Returned filing count KPRMILL",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "Returned filing count LT",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "check": "Returned filing count MARUTI",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "check": "Returned filing count NTPC",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "Returned filing count PERSISTENT",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "Returned filing count RELIANCE",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "Returned filing count SUNPHARMA",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "Returned filing count TATASTEEL",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "HTTP /",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /app.js",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /live.js",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /style.css",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /source.js",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /?demo=1",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /data.json",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "HTTP /health",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Live data matches real store, separate from demo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Verification does not auto-refresh upstream",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Push data does not substitute generated briefs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Price/feed outcomes 15/15",
+      "passed": true,
+      "detail": {
+        "checked": 15,
+        "passed": 15,
+        "failed": 0,
+        "notChecked": 0,
+        "attachmentsReady": 2,
+        "attachmentsFailed": 0,
+        "attachmentsNotRequested": 59
+      }
+    },
+    {
+      "check": "Validated attachments accounted for, failures excluded",
+      "passed": true,
+      "detail": {
+        "checked": 15,
+        "passed": 15,
+        "failed": 0,
+        "notChecked": 0,
+        "attachmentsReady": 2,
+        "attachmentsFailed": 0,
+        "attachmentsNotRequested": 59
+      }
+    },
+    {
+      "check": "Served validated PDF INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cached evidence INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source page data INFY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Served validated PDF SUNPHARMA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cached evidence SUNPHARMA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source page data SUNPHARMA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unexposed/unknown route /runtime/finn.sqlite3",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "check": "Unexposed/unknown route /.git/config",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "check": "Unexposed/unknown route /app/holdings.json",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "check": "Unexposed/unknown route /api/filings/unknown/evidence",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "check": "Unexposed/unknown route /files/unknown.pdf",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "check": "Refresh rejects missing token",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual snapshot restores stored filings and 15 quotes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery keeps original retrieval time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery is labelled and does not bundle PDFs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP duplicate refresh reuses one active lease",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Duplicate-lease check made zero upstream requests",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

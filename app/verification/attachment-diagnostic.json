@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-30T11:35:51.046609+00:00",
+  "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+  "exchange_declared_file_size": "15.31 MB",
+  "original_failed_response": {
+    "bytes": 131072,
+    "sha256": "e6becc04921ae6c76931c8f027cf7428add82b9ec4bb68e52d971fe8da142e87",
+    "pdf_header": true,
+    "eof_near_end": false,
+    "linearized_declared_length": 16048521,
+    "pages": 0,
+    "requires_password": false,
+    "repaired": true
+  },
+  "methods": [
+    {
+      "method": "independent urllib read(limit+1), same headers",
+      "request": {
+        "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+        "final_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+        "kind": "attachment-diagnostic-single-read",
+        "retrieved_at": "2026-10-30T11:35:51.048524+00:00",
+        "ok": false,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "content_length": "16048521",
+        "content_range": null,
+        "transfer_encoding": null,
+        "error": "ValueError: Diagnostic size cap exceeded",
+        "seconds": 1.181,
+        "id": "868a9d16ca14400baf0b51514480a613",
+        "sha256": "e9c2c9c9b5b5a44676bd460d47ee4e026ed6e8f543ea6ef457ee3464815fcd24",
+        "bytes": 8000001,
+        "validation": "failed",
+        "validation_error": "ValueError: Diagnostic size cap exceeded"
+      },
+      "inspection": {
+        "bytes": 8000001,
+        "sha256": "e9c2c9c9b5b5a44676bd460d47ee4e026ed6e8f543ea6ef457ee3464815fcd24",
+        "pdf_header": true,
+        "eof_near_end": false,
+        "linearized_declared_length": 16048521,
+        "pages": 0,
+        "requires_password": false,
+        "repaired": true
+      }
+    },
+    {
+      "method": "app bounded chunk reader",
+      "error": "SourceError: Source exceeds 8,000,000-byte cap [request 56e39a1ec7684ef7a6bcb83ec5063adb]",
+      "request": {
+        "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+        "kind": "attachment-diagnostic-adapter",
+        "retrieved_at": "2026-10-30T11:35:52.272288+00:00",
+        "http_status": 200,
+        "ok": false,
+        "final_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+        "job_id": null,
+        "content_type": "application/pdf",
+        "content_length": "16048521",
+        "content_range": null,
+        "error": "SourceError: Source exceeds 8,000,000-byte cap",
+        "seconds": 1.282,
+        "id": "56e39a1ec7684ef7a6bcb83ec5063adb",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "validation": "failed",
+        "validation_error": "SourceError: Source exceeds 8,000,000-byte cap"
+      }
+    }
+  ],
+  "conclusion": "The first response was incomplete, not password-protected. Its initial headers were not retained, so the exact initial truncation cause is unknown. Fresh responses declare a 16,048,521-byte file; diagnostic reads hit the old 8 MB cap. The corrected 25 MB path subsequently validated all 34 pages. See attachment-revalidation.json. No full-portfolio fetch was repeated."
+}

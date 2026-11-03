@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-10-30T12:21:52.597Z",
+  "scope": "Author-operated Chromium browser; not a physical phone",
+  "viewport": {
+    "documentWidth": 390,
+    "height": 844,
+    "width": 390
+  },
+  "beforeReturn": "-1236.8px",
+  "sourcePage": "/source.html?doc=c0639e4915bd26cb67a93f6b&page=152",
+  "readerViewport": {
+    "documentWidth": 375,
+    "height": 844,
+    "width": 390
+  },
+  "readerPage": "PDF page 152 of 207",
+  "readerHasCashFlow": true,
+  "afterReturn": {
+    "focused": "Read evidence · PDF p. 152 ↗",
+    "question": "What do operating cash flow and receivables show?",
+    "scrollY": 1236.800048828125,
+    "ticker": "CERA"
+  },
+  "noMatch": true,
+  "invalidState": true,
+  "smallViewport": {
+    "documentWidth": 345,
+    "height": 800,
+    "width": 360
+  },
+  "partialState": true,
+  "partialLayout": {
+    "documentWidth": 345,
+    "height": 800,
+    "smallButtons": [],
+    "width": 360
+  },
+  "finalDrawer": {
+    "documentWidth": 390,
+    "height": 844,
+    "sourceMeta": "Document\nCERA · Annual report FY 2025-26\nPeriod / date\nFY 2025-26 · 2026-06-29\nPDF page\n152 of 207 · Read saved page ↗\nSource\nnsearchives.nseindia.com\nRetrieved\n30 Oct 2026, 5:43 pm IST",
+    "width": 390
+  },
+  "reverseTab": "Original source ↗",
+  "forwardTab": "Close evidence and return",
+  "finalReturn": {
+    "focused": "Read evidence · PDF p. 152 ↗",
+    "scrollY": 1258.4000244140625
+  },
+  "finalTickerFlow": {
+    "documentWidth": 375,
+    "passages": 6,
+    "question": "What does management say about demand and growth outlook?",
+    "scrollY": 0,
+    "ticker": "TITAN",
+    "width": 390
+  },
+  "pushSummary": "13\nitems for review\n48\nother filings\n15 / 15\nprice/feed checks passed",
+  "manualDemoSeparate": true,
+  "logs": [],
+  "finished_at": "2026-10-30T12:40:31.197Z",
+  "latestQuestionWins": true
+}

@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-30T21:50:35.733215+00:00",
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "check": "public data excludes key/cache/audit",
+      "passed": true
+    },
+    {
+      "check": "no key in /",
+      "passed": true
+    },
+    {
+      "check": "no key in /app.js",
+      "passed": true
+    },
+    {
+      "check": "no key in /pull.js",
+      "passed": true
+    },
+    {
+      "check": "no key in /live.js",
+      "passed": true
+    },
+    {
+      "check": "no key in /style.css",
+      "passed": true
+    },
+    {
+      "check": "no key in /health",
+      "passed": true
+    },
+    {
+      "check": "no key in /data.json",
+      "passed": true
+    },
+    {
+      "check": "no key in /api/documents/3e7c4e2a2b30f514af1a69bb",
+      "passed": true
+    },
+    {
+      "check": "private route blocked /.env.local",
+      "passed": true
+    },
+    {
+      "check": "private route blocked /app/gemini.py",
+      "passed": true
+    },
+    {
+      "check": "private route blocked /runtime/finn.sqlite3",
+      "passed": true
+    },
+    {
+      "check": "answer requires token",
+      "passed": true
+    },
+    {
+      "check": "cached answer 1",
+      "passed": true
+    },
+    {
+      "check": "cached answer 2",
+      "passed": true
+    },
+    {
+      "check": "same cached content and no model calls",
+      "passed": true
+    }
+  ],
+  "new_model_calls": 0
+}

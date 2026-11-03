@@ -1,0 +1,11 @@
+{
+  "/documents/infy-call.pdf": "experiments/samples/INFY-filing-0-20261030T074521070565Z.pdf",
+  "/documents/infy-annual.pdf": "experiments/samples/INFY-annual-0-20261030T074606259596Z.pdf",
+  "/documents/kpr-results.pdf": "experiments/samples/KPRMILL-filing-0-20261030T074523691154Z.pdf",
+  "/documents/cera-call.pdf": "experiments/samples/CERA-transcript-0-20261030T074614659681Z.pdf",
+  "/documents/cera-annual.pdf": "experiments/samples/CERA-annual-0-20261030T074835558662Z.pdf",
+  "/documents/cera-notice.pdf": "experiments/samples/CERA-filing-0-20261030T074525316823Z.pdf",
+  "/documents/kpr-old-call.pdf": "experiments/samples/KPRMILL-transcript-0-20261030T074612081320Z.pdf",
+  "/documents/apollo-cover.pdf": "experiments/samples/APOLLOHOSP-transcript-0-20261030T075051735128Z.pdf",
+  "/evidence/kpr-results-page-9.png": "experiments/samples/KPRMILL-financial-pdf-page-9.png"
+}

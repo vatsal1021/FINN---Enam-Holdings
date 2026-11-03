@@ -1,0 +1,219 @@
+{
+  "checked_at_utc": "2026-10-30T08:42:28.670309+00:00",
+  "base_url": "http://127.0.0.1:8765",
+  "scope": "Local HTTP and saved evidence checks only. Browser interactions are recorded separately.",
+  "passed": 42,
+  "total": 42,
+  "checks": [
+    {
+      "name": "HTTP /",
+      "passed": true,
+      "detail": "200; 1615 bytes"
+    },
+    {
+      "name": "HTTP /app.js",
+      "passed": true,
+      "detail": "200; 25019 bytes"
+    },
+    {
+      "name": "HTTP /source.js",
+      "passed": true,
+      "detail": "200; 2267 bytes"
+    },
+    {
+      "name": "HTTP /style.css",
+      "passed": true,
+      "detail": "200; 15869 bytes"
+    },
+    {
+      "name": "HTTP /source.html?doc=infy-call&page=25",
+      "passed": true,
+      "detail": "200; 451 bytes"
+    },
+    {
+      "name": "HTTP /data.json",
+      "passed": true,
+      "detail": "200; 64235 bytes"
+    },
+    {
+      "name": "Exactly the selected fifteen companies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four dated EOD samples, eleven unavailable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Eight selected filings; two manually prioritised",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No reference to absent evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Passage matches saved PDF extraction: infy-growth",
+      "passed": true,
+      "detail": "infy-call page 25"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: infy-deals",
+      "passed": true,
+      "detail": "infy-call page 25"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: infy-business",
+      "passed": true,
+      "detail": "infy-annual page 10"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: kpr-consolidated",
+      "passed": true,
+      "detail": "kpr-results page 9"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: cera-outlook",
+      "passed": true,
+      "detail": "cera-call page 4"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: cera-context",
+      "passed": true,
+      "detail": "cera-annual page 3"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: cera-notice",
+      "passed": true,
+      "detail": "cera-notice page 1"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: kpr-stale",
+      "passed": true,
+      "detail": "kpr-old-call page 4"
+    },
+    {
+      "name": "Passage matches saved PDF extraction: apollo-partial",
+      "passed": true,
+      "detail": "apollo-cover page 1"
+    },
+    {
+      "name": "Saved PDF identity: infy-call",
+      "passed": true,
+      "detail": "200; 3742339 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: infy-call",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: infy-annual",
+      "passed": true,
+      "detail": "200; 8933457 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: infy-annual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: kpr-results",
+      "passed": true,
+      "detail": "200; 5907232 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: kpr-results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: cera-call",
+      "passed": true,
+      "detail": "200; 304699 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: cera-call",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: cera-annual",
+      "passed": true,
+      "detail": "200; 3460023 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: cera-annual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: cera-notice",
+      "passed": true,
+      "detail": "200; 373162 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: cera-notice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: kpr-old-call",
+      "passed": true,
+      "detail": "200; 362521 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: kpr-old-call",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved PDF identity: apollo-cover",
+      "passed": true,
+      "detail": "200; 363175 bytes"
+    },
+    {
+      "name": "Source URL is original HTTPS: apollo-cover",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Rendered original results table",
+      "passed": true,
+      "detail": "200; 726723 bytes"
+    },
+    {
+      "name": "Workspace not exposed: /project-notes/requirements.md",
+      "passed": true,
+      "detail": "404"
+    },
+    {
+      "name": "Workspace not exposed: /experiments/samples/requests.jsonl",
+      "passed": true,
+      "detail": "404"
+    },
+    {
+      "name": "Workspace not exposed: /../project-notes/requirements.md",
+      "passed": true,
+      "detail": "404"
+    },
+    {
+      "name": "Workspace not exposed: /documents/unknown.pdf",
+      "passed": true,
+      "detail": "404"
+    },
+    {
+      "name": "Stale call not labelled current",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apollo call is cover letter / partial",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

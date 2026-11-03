@@ -1,0 +1,29 @@
+{
+  "source": {
+    "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "kind": "filing-pdf",
+    "retrieved_at": "2026-10-30T09:10:59.330902+00:00",
+    "http_status": 200,
+    "ok": true,
+    "final_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "job_id": "cf13e8526f3e4da0bff3460497a4af3e",
+    "content_type": "application/pdf",
+    "seconds": 0.724,
+    "id": "3939e50a426b43e7b6f3cde732b3bcac",
+    "sha256": "e6becc04921ae6c76931c8f027cf7428add82b9ec4bb68e52d971fe8da142e87",
+    "bytes": 131072,
+    "validation": "failed",
+    "validation_error": "Encrypted or empty PDF"
+  },
+  "inspection": {
+    "bytes": 131072,
+    "sha256": "e6becc04921ae6c76931c8f027cf7428add82b9ec4bb68e52d971fe8da142e87",
+    "pdf_header": true,
+    "eof_near_end": false,
+    "linearized_declared_length": 16048521,
+    "pages": 0,
+    "requires_password": false,
+    "repaired": true
+  },
+  "note": "Actual failed response retained unchanged. Not a synthetic or successful filing. No assertion yet about whether truncation came from client or server."
+}

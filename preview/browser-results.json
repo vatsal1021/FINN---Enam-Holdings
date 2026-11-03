@@ -1,0 +1,234 @@
+{
+  "checkedAtUTC": "2026-10-30T08:42:51.304Z",
+  "environment": "In-app Chromium browser; author-operated checks",
+  "confirmedViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "limits": [
+    "No physical phone test or timed investor study",
+    "360×800 override attempts did not change measured dimensions; 360/768 not verified",
+    "Source reader checked at desktop 1280×720; not a mobile-reader pass",
+    "No live AI, arbitrary-ticker engine, hosted runtime or ingestion test"
+  ],
+  "checks": [
+    {
+      "check": "Initial 390×844 digest",
+      "observed": {
+        "attention": 2,
+        "height": 844,
+        "other": 5,
+        "pageWidth": 375,
+        "width": 390
+      },
+      "result": "PASS: 2 attention and 5 other saved examples at measured 390×844; no horizontal overflow"
+    },
+    {
+      "check": "KPR + October filters",
+      "observed": {
+        "attention": 1,
+        "company": "KPRMILL",
+        "other": 2,
+        "period": "month"
+      },
+      "result": "PASS: 1 attention + 2 routine examples"
+    },
+    {
+      "check": "KPR evidence drawer",
+      "observed": {
+        "backgroundOffset": "-648.8px",
+        "dialog": true,
+        "image": true,
+        "passage": true,
+        "title": "Consolidated quarterly results"
+      },
+      "result": "PASS: original page 9, basis/units, raw text and image present"
+    },
+    {
+      "check": "Saved source reader",
+      "result": "PASS: KPR PDF page 9 of 12, raw extracted text and original page image visible"
+    },
+    {
+      "check": "Original NSE source",
+      "result": "PASS: original KPR PDF opened in a new tab; browser PDF viewer displayed 12-page document and dated cover letter"
+    },
+    {
+      "check": "Full company list",
+      "result": "PASS: all 15 selected companies rendered in A–Z order; 390 CSS px, no page-wide overflow"
+    },
+    {
+      "check": "Day move descending + CERA search",
+      "result": "PASS: INFY +2.08%, Apollo +0.77%, CERA −0.22%, KPR −0.81%; eleven unavailable values sorted last. Search CERA returns 1/15."
+    },
+    {
+      "check": "CERA investigation and evidence",
+      "result": "PASS: management view displays dated August guidance and original passage; Escape closes and restores citation-button focus."
+    },
+    {
+      "check": "Companies return state",
+      "observed": {
+        "count": 1,
+        "search": "CERA",
+        "sort": "move-desc"
+      },
+      "result": "PASS: CERA search and descending move sort retained after investigation/back"
+    },
+    {
+      "check": "All fifteen investigation selections",
+      "observed": [
+        {
+          "ticker": "APOLLOHOSP",
+          "missing": false,
+          "scrollWidth": 375,
+          "title": "Apollo Hospitals",
+          "width": 390
+        },
+        {
+          "ticker": "BHARTIARTL",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Bharti Airtel",
+          "width": 390
+        },
+        {
+          "ticker": "CERA",
+          "missing": false,
+          "scrollWidth": 375,
+          "title": "Cera Sanitaryware",
+          "width": 390
+        },
+        {
+          "ticker": "ELGIEQUIP",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Elgi Equipments",
+          "width": 390
+        },
+        {
+          "ticker": "HDFCBANK",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "HDFC Bank",
+          "width": 390
+        },
+        {
+          "ticker": "HINDUNILVR",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Hindustan Unilever",
+          "width": 390
+        },
+        {
+          "ticker": "INFY",
+          "missing": false,
+          "scrollWidth": 375,
+          "title": "Infosys",
+          "width": 390
+        },
+        {
+          "ticker": "KPRMILL",
+          "missing": false,
+          "scrollWidth": 375,
+          "title": "KPR Mill",
+          "width": 390
+        },
+        {
+          "ticker": "LT",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Larsen & Toubro",
+          "width": 390
+        },
+        {
+          "ticker": "MARUTI",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Maruti Suzuki",
+          "width": 390
+        },
+        {
+          "ticker": "NTPC",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "NTPC",
+          "width": 390
+        },
+        {
+          "ticker": "PERSISTENT",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Persistent Systems",
+          "width": 390
+        },
+        {
+          "ticker": "RELIANCE",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Reliance Industries",
+          "width": 390
+        },
+        {
+          "ticker": "SUNPHARMA",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Sun Pharmaceutical",
+          "width": 390
+        },
+        {
+          "ticker": "TATASTEEL",
+          "missing": true,
+          "scrollWidth": 375,
+          "title": "Tata Steel",
+          "width": 390
+        }
+      ],
+      "result": "PASS: correct company title for 15 selections, 11 explicit not-loaded states, no horizontal overflow"
+    },
+    {
+      "check": "Stale and partial examples",
+      "result": "PASS: KPR August 2023 call explicitly excluded from current outlook; Apollo screen explains saved cover letter and prior HTTP-403 full-call failure."
+    },
+    {
+      "check": "Keyboard focus wrap",
+      "result": "PASS after explicit trap: Shift+Tab from close focuses Original source; Tab from final source link focuses Close; focus stays inside dialog."
+    },
+    {
+      "check": "Empty saved-date window",
+      "result": "PASS: 30 Oct returns explicit no-saved-items state and does not claim no exchange events; reset button available."
+    },
+    {
+      "check": "Loading replay",
+      "observed": {
+        "busy": "true",
+        "skeletons": 2,
+        "text": "SIMULATED LOADING STATELoading saved sample…"
+      },
+      "result": "PASS: aria-busy true and 2 skeletons, then restored 2 real saved attention examples without upstream request."
+    },
+    {
+      "check": "Routine and metadata-only access",
+      "result": "PASS: category filter exposes five other/routine examples, with absent passages explicitly labelled and original source link retained."
+    },
+    {
+      "check": "Final browser-back evidence return",
+      "expectedScroll": 540.8,
+      "observed": {
+        "category": "true",
+        "company": "KPRMILL",
+        "focus": "Review evidence ↗",
+        "open": false,
+        "period": "week",
+        "scroll": 540.7999877929688
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "Layout and touch targets",
+      "result": "PASS: measured main document widths 375 <= 390 CSS px; locked drawer 390 <= 390; no visible Companies/Investigate button below 44px height."
+    },
+    {
+      "check": "Browser console",
+      "result": "PASS: no warn/error entries returned on the inspected final flow."
+    }
+  ]
+}

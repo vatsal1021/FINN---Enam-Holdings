@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-30T22:02:58.094873+00:00",
+  "base": "https://finn-enam-holdings.onrender.com",
+  "phase": "recovery",
+  "model_available": false,
+  "document": {
+    "id": "3e7c4e2a2b30f514af1a69bb",
+    "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+    "period": "Q2 FY2027",
+    "retrieved": "2026-10-30T12:13:25.053528+00:00",
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+    "has_file": false
+  },
+  "finished_at": "2026-10-30T22:03:03.494105+00:00",
+  "checks": [
+    {
+      "check": "Hosted health",
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "mode": "real-source push and cited company research",
+        "model_enabled": false
+      }
+    },
+    {
+      "check": "15 companies remain readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recovery provenance visible",
+      "passed": true,
+      "detail": {
+        "restored_at": "2026-10-30T22:02:41.925604+00:00",
+        "snapshot_exported_at": "2026-10-30T21:46:55.429570+00:00",
+        "note": "Restored dated source metadata/text. Raw response/PDF files are not bundled. New retrieval timestamps change only after real requests."
+      }
+    },
+    {
+      "check": "Free-host storage declared ephemeral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Private answer/audit tables absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "New runtime restored after redeployment",
+      "passed": true,
+      "detail": {
+        "previous_restored_at": "2026-10-30T21:56:25.519112+00:00",
+        "restored_at": "2026-10-30T22:02:41.925604+00:00"
+      }
+    },
+    {
+      "check": "Unsnapshotted TCS state is not falsely durable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Hosted pull retrieves real evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual call p25 retrievable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Citation resolves to full saved source",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "catch_up_after_recovery": {
+    "job_id": "02419c0a8204409cb49d4855068a226b",
+    "status": "complete",
+    "eod_date": "2026-10-30",
+    "passed": 15,
+    "failed": 0,
+    "errors": [],
+    "observed_at": "2026-10-30T22:03:51+00:00"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "scope": "Initial two real INFY refreshes; no experiment cache or model requests",
+  "jobs": [
+    {
+      "id": "7d55ae39f28b453eb388a063b258bf5b",
+      "status": "complete",
+      "started_at": "2026-10-30T08:58:44.210184+00:00",
+      "expires_at": "2026-10-30T09:04:44.210184+00:00",
+      "tickers": [
+        "INFY"
+      ],
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "requested_eod": "2026-10-29",
+      "completed": 1,
+      "errors": [],
+      "finished_at": "2026-10-30T08:58:48.676373+00:00",
+      "eod_date": "2026-10-29",
+      "elapsed_seconds": 4.463,
+      "companies_passed": 1,
+      "companies_failed": 0,
+      "inserted": 10,
+      "updated": 0,
+      "document_results": [
+        {
+          "event_id": "nse-INFY-106832593",
+          "status": "ready",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "01a9b664883d44c49a47da6310536779",
+      "status": "complete",
+      "started_at": "2026-10-30T09:06:51.596942+00:00",
+      "expires_at": "2026-10-30T09:12:51.596942+00:00",
+      "tickers": [
+        "INFY"
+      ],
+      "start": "2026-10-23",
+      "end": "2026-10-30",
+      "requested_eod": "2026-10-29",
+      "completed": 1,
+      "errors": [],
+      "finished_at": "2026-10-30T09:06:55.901193+00:00",
+      "eod_date": "2026-10-29",
+      "elapsed_seconds": 4.283,
+      "companies_passed": 1,
+      "companies_failed": 0,
+      "inserted": 0,
+      "updated": 10,
+      "document_results": [
+        {
+          "event_id": "nse-INFY-106832593",
+          "status": "ready",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv",
+      "kind": "eod",
+      "retrieved_at": "2026-10-30T08:58:44.213226+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv",
+      "content_type": "text/csv",
+      "seconds": 1.248,
+      "id": "cb2ad56112674aa984a44542632a3466",
+      "sha256": "584c86f61e6bc03a6326a77be909dd67da5c936383a01b8759f1f7b7b82a189d",
+      "bytes": 398824,
+      "validation": "passed",
+      "validation_error": null
+    },
+    {
+      "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=23-10-2026&to_date=30-10-2026",
+      "kind": "announcements",
+      "retrieved_at": "2026-10-30T08:58:45.597876+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=23-10-2026&to_date=30-10-2026",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.897,
+      "id": "517d76ba04924840b50308915474c460",
+      "sha256": "4e8e57e673fba1055b34cd64899a4acfa96e10387b3e4f67adce6b9647af65ad",
+      "bytes": 6641,
+      "validation": "passed",
+      "validation_error": null
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "kind": "filing-pdf",
+      "retrieved_at": "2026-10-30T08:58:46.799189+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "content_type": "application/pdf",
+      "seconds": 1.61,
+      "id": "a7d5cd5f80a84adc8a2b15ac8d7f6edc",
+      "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+      "bytes": 3742339,
+      "validation": "passed",
+      "validation_error": null
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv",
+      "kind": "eod",
+      "retrieved_at": "2026-10-30T09:06:51.618258+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29102026.csv",
+      "job_id": "01a9b664883d44c49a47da6310536779",
+      "content_type": "text/csv",
+      "seconds": 0.851,
+      "id": "d33495314e14490bbf63382c885d8097",
+      "sha256": "584c86f61e6bc03a6326a77be909dd67da5c936383a01b8759f1f7b7b82a189d",
+      "bytes": 398824,
+      "validation": "passed",
+      "validation_error": null
+    },
+    {
+      "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=23-10-2026&to_date=30-10-2026",
+      "kind": "announcements",
+      "retrieved_at": "2026-10-30T09:06:52.609273+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=INFY&from_date=23-10-2026&to_date=30-10-2026",
+      "job_id": "01a9b664883d44c49a47da6310536779",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.906,
+      "id": "eb349a6e2f5142dfbc836c11df979cec",
+      "sha256": "4e8e57e673fba1055b34cd64899a4acfa96e10387b3e4f67adce6b9647af65ad",
+      "bytes": 6641,
+      "validation": "passed",
+      "validation_error": null
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "kind": "filing-pdf",
+      "retrieved_at": "2026-10-30T09:06:53.838592+00:00",
+      "http_status": 200,
+      "ok": true,
+      "final_url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+      "job_id": "01a9b664883d44c49a47da6310536779",
+      "content_type": "application/pdf",
+      "seconds": 1.822,
+      "id": "1280319c685944dea9bf5f949f4f1783",
+      "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+      "bytes": 3742339,
+      "validation": "passed",
+      "validation_error": null
+    }
+  ],
+  "documents": [
+    {
+      "id": "9f2119e2bad982ea5b373364",
+      "event_id": "nse-INFY-106832593",
+      "status": "ready",
+      "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+      "retrieved": "2026-10-30T08:58:46.799189+00:00",
+      "excerpt_page": 1,
+      "pageCount": 48,
+      "validation": {
+        "signature": true,
+        "structure": "no repair required",
+        "company_identity": true,
+        "text_layer": true,
+        "numeric_table_validation": "not performed"
+      }
+    },
+    {
+      "id": "851c574e6be865ecf5098cac",
+      "event_id": "nse-INFY-106832593",
+      "status": "ready",
+      "sha256": "b8e9a931ed54ee49a23fb36a7d6a37f15ab72c2f3bbd14d1e92d706b471f30e2",
+      "retrieved": "2026-10-30T09:06:53.838592+00:00",
+      "excerpt_page": 25,
+      "pageCount": 48,
+      "validation": {
+        "signature": true,
+        "structure": "no repair required",
+        "company_identity": true,
+        "text_layer": true,
+        "numeric_table_validation": "not performed"
+      }
+    }
+  ]
+}
